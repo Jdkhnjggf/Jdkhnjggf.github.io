@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Welcome to Ryz Blog"
+title:      "Welcome to luobobo Blog"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
+date:       2020-06-05 18:20:00
 author:     "luobobo"
 header-img: "img/post-bg-2015.jpg"
 tags:
@@ -14,4 +14,4 @@ tags:
 
 ## 正文
 
-Ryz 的 Blog 就这么开通了。 
+luobobo 的 Blog 就这么开通了。 
