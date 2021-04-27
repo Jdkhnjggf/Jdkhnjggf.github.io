@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Paper-Reading-List"
-subtitle:   " \"How to Fuzzing with Grammars\""
+subtitle:   " Security Papers"
 date:       2021-04-27 15:00:00
 author:     "luobobo"
 header-img: "img/post-bg-2015.jpg"
@@ -36,7 +36,7 @@ tags:
 * [SoK: Using Dynamic Binary Instrumentation for Security](https://www.diag.uniroma1.it/~delia/papers/asiaccs2019.pdf)
 * [SoK: Sanitizing for Security](https://arxiv.org/pdf/1806.04355.pdf)
 * [One Engine to Fuzz ’em All: Generic Language Processor Testing with Semantic Validation](https://faculty.ist.psu.edu/wu/papers/polyglot.pdf)
-* [STOCHFUZZ: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting    https://www.cs.purdue.edu/homes/zhan3299/res/SP21b.pdf)
+* [STOCHFUZZ: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting](https://www.cs.purdue.edu/homes/zhan3299/res/SP21b.pdf)
 * [A novel dynamic analysis infr el dynamic analysis infrastructur astructure to instrument untrusted o instrument untrusted execution flow across user-kernel spaces](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6613&context=sis_research)
 * [A Secure and Formally Verified Linux KVM Hypervisor](http://www.cs.columbia.edu/~nieh/pubs/ieeesp2021_kvm.pdf)
 * [DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices](https://conand.me/publications/redini-diane-2021.pdf)
