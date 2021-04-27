@@ -14,20 +14,19 @@ tags:
 
 [How to Read a Paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
 
-```
 The THREE-PASS APPROACH
 1. The first pass [about 5-10 min]
-		- title, abstract, and introduction
-		- section and sub-section headings
-		- conclusions
+	- title, abstract, and introduction
+	- section and sub-section headings
+	- conclusions
 2. The second pass [about one hour]
-		- read carefully, ignore details such as proof
-		- figures, diagrams, and illustrations
-		- mark unread references
+	- read carefully, ignore details such as proof
+	- figures, diagrams, and illustrations
+	- mark unread references
 3. The third pass [about four to five hours for beginner]
-		- virtually re-implement the paper
+	- virtually re-implement the paper
     - identify and challenge every assumption in every statement
-```
+
 
 
 * [Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu)
