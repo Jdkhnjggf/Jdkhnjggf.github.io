@@ -22,9 +22,6 @@ My writing skills are abysmal... I am taking a seminar lecture this semester and
 
 **Summary:**
 Developers of popular open-source software usually need to deal with a huge number of bug reports. The ability to quickly clarify the classify the cause of bugs is vital. 
-
 The paper implemented two algorithms — ddmin, dd. ddmin automatically minimizes the failure-inducing input by partitioning it into subsets and test each. The granularity is default two. ddmin increases granularity when none of these subsets is the failing test. When the test fails, ddmin recursively partitions this subset into smaller subsets and test each until the granularity can not be increased. A minimal test case is found that satisfies two conditions: (1) fails in the test and removing any part of it will make it not fail in the test. dd adds two rules to ddmin. Likewise, dd partitions the difference between test failing cases and test passing cases. Moreover, each subset of changes is added to the test passing case and tested again. While a new test case pass, dd recursively partitions the difference between the Failure-Inducing Input and it until the granularity can not be increased. The difference between a passing and failing test case is isolated. 
-
 Experiments have shown that Delta Debugging algorithms achieve promising results in simplifying and isolating Failure-inducing inputs automatically. The method has been applied to simplify the failing test inputs, including GCC, Mozilla, and fuzz input. Furthermore, Delta Debugging algorithms can be applied in users’ interactions and program invocations. 
-
 Overall, Delta Debugging algorithms propose for the first time to combine debugging with re-testing to automatically minimize failure test cases and isolate the cause of failure.
