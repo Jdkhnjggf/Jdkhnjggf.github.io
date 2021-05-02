@@ -28,6 +28,8 @@ The THREE-PASS APPROACH
     - identify and challenge every assumption in every statement
 
 
+* ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
+* ~~[Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
 
 * [Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu)
 * [Android SmartTVs Vulnerability Discovery via Log-Guided Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/aafer)
