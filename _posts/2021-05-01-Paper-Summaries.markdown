@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-05-01 22:00:00
+date:       2021-05-09 21:00:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -11,9 +11,22 @@ tags:
 
 > “The better you understand a subject, the easier it is to explain it thoroughly and briefly.”
 
-My writing skills are abysmal... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice.
+My writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice.
 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
+
+
+### [Seminar] Abstracting Failure-Inducing Inputs
+[**Paper**](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)  *2021-05-09*
+
+### [Seminar] When does my Program do this? Learning Circumstances of Software Behavior
+[**Paper**](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)  *2021-05-09*
+
+**Summary:**
+ Given an input grammar, the DDSet algorithm automatically generates an abstract pattern of a failure-inducing input, greatly helps developers locate, fix bugs, and validate patches.
+DDSet regards a failing-test input as a derivation tree and reduces the given input into a 1-minimal input at first, which means none of its nodes can be empty to reproduce the failure still. Next, DDSet determines which parts of the given input can be abstracted as an expression, and the remaining should be kept still to fail the test. Then DDSet isolates causes of failure by verifying the abstract node independently, moreover, establishes combinations of sharing abstraction.   
+Rather than generate a set of related failure-inducing tests, the Alhazen approach automatically determines what inputs lead to a particular software behavior (also can be a failure) take place. Alhazen parses inputs by using grammar and feeds several selected features to a decision tree learner. In each iteration, the learner removes prohibited production and eliminates infeasible predicate sets to produce inputs for next iteration.
+After re-testing with the generated inputs repeatedly, Alhazen can predict the program behavior by learning the decision rules inferred from previous testing results.
 
 
 ### [Seminar] Simplifying and Isolating Failure-Inducing Input
