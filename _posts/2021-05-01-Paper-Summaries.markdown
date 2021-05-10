@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-05-09 21:00:00
+date:       2021-05-11 00:00:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -14,6 +14,19 @@ tags:
 My writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice.
 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
+
+
+### Meltdown: Reading Kernel Memory from User Space
+[**Paper**](https://meltdownattack.com/meltdown.pdf)  *2021-05-11*
+
+**Summary:**
+ The paper presents a new attack, Meltdown, against memory isolation between kernel address and user address.
+Meltdown allows an adversary to dump the entire kernel address by exploiting the side effects of Out-of-order execution.
+Modern processors prioritize the execution of operations with available input data to prevent idleness and achieve high performance. 
+However, Meltdown makes the CPU execute originally unreachable instructions to change micro-architectural state with a secret value. 
+Subsequently, Meltdown uses Flush+Reload, a cache attack technique, to transfer micro-architectural state change into architectural state and speculates the secret value.
+Eventually, by repeating the above steps, an attacker can dump the kernel memory without accessible privileges.
+This attack applies to many operating systems,  e. g. Linux, Windows, Android, and could cause damage to a large number of users.
 
 
 ### [Seminar] Abstracting Failure-Inducing Inputs
