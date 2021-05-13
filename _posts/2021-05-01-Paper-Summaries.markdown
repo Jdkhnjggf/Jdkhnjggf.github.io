@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-05-11 00:00:00
+date:       2021-05-13 23:30:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -14,6 +14,16 @@ tags:
 My writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice.
 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
+
+
+### FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack
+[**Paper**](https://eprint.iacr.org/2013/448.pdf)  *2021-05-13*
+
+**Summary:**
+ In this paper, the authors present FLUSH+RELOAD, a new cache side-channel attack technique that exploits the side effects of the copy-on-write technique. 
+Copy-on-write contributes to page-sharing but introduces a significant time delay. So an attacker can spy this time difference to speculate the secret value in the cache. 
+Compared to prior cache side-channel attacks, FLUSH+RELOAD focuses on the Last-Level Cache.
+Consequently, the attacker and victim can not be in the same processor. Moreover, FLUSH+RELOAD allows cross-VM attacks in a virtual environment.
 
 
 ### Meltdown: Reading Kernel Memory from User Space
