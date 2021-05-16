@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-05-13 23:30:00
+date:       2021-05-17 00:00:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -11,9 +11,25 @@ tags:
 
 > “The better you understand a subject, the easier it is to explain it thoroughly and briefly.”
 
-My writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice.
+My English writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice writing skill.
 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
+
+
+###
+[**Paper**](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)  *2021-05-17*
+
+###
+[**Paper**](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)  *2021-05-17*
+
+**Summary:**
+ The paper presents a grammar transformer, Evogram, that combines the input grammar with some specific user-defined patterns, to obtain a combined grammar. 
+Within this grammar, users can produce test inputs satisfying a set of specific patterns, which greatly improves the flexibility and practicality of grammar-based test generators.
+At first, authors regards the given constraint as an abstract pattern, called evocative pattern, which is actually a specific string representation of non-terminals. Subsequently, authors connect the original grammar with a reaching grammar to guarantee the inputs generated with end grammar contain at least one instance of evocative pattern. Eventually, authors provide formal proofs of a series of algebra of grammar specializations, ensuring the accuracy of the combined grammar they derive.
+In contrast, another paper presents a method based on the $L^*$ algorithm.
+It automatically determines what program behavior towards some specific program failure.
+This approach instruments the program to get the conditions for generating an event, and the program behavior is composed of a series of events.
+Through multiple rounds of queries with the feedback obtained, this method can automatically learn a DFA with specific properties, which helps to visualise the cause of program's error.
 
 
 ### FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack

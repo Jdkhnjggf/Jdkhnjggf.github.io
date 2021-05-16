@@ -28,6 +28,8 @@ The THREE-PASS APPROACH
     - identify and challenge every assumption in every statement
 
 
+* ~~[Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)~~
+* ~~[Learning the Language of Error](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)~~
 * ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
 * ~~[Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
 * ~~[Abstracting Failure-Inducing Inputs](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)~~
