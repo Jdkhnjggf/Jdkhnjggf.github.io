@@ -37,6 +37,27 @@ The THREE-PASS APPROACH
 * ~~[When does my Program do this? Learning Circumstances of Software Behavior](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)~~
 * ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 
+
+**Side-Channel Attack:**
+* [Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)
+* 导师的PhD Thesis[Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
+* [Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)
+* [SoK: Keylogging Side Channels](https://oaklandsok.github.io/papers/monaco2018.pdf)
+* [ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
+* [Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)
+* [KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf)
+* [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
+* [Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)
+* [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
+
+**Fuzzing (Seminar Task):**
+* [Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)
+* [Ankou: guiding grey-box fuzzing towards combinatorial difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
+* [Ijon: Exploring Deep State Spaces via Fuzzing](https://wcventure.github.io/FuzzingPaper/Paper/SP20_IJON.pdf)
+* [AFL++ : Combining Incremental Steps of Fuzzing Research](https://www.usenix.org/system/files/woot20-paper-fioraldi.pdf)
+* [WEIZZ: automatic grey-box fuzzing for structured binary formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
+
+<!-- 
 * [Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu)
 * [Android SmartTVs Vulnerability Discovery via Log-Guided Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/aafer)
 * [ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-yoochan)
@@ -86,4 +107,4 @@ The THREE-PASS APPROACH
 * [MemFuzz: Using Memory Accesses to Guide Fuzzing (ICST 2019)](https://github.com/wcventure/FuzzingPaper/blob/master/Paper/ICST19_MemFuzz.pdf)
 * [MemLock: Memory Usage Guided Fuzzing (ICSE2020)](https://wcventure.github.io/pdf/ICSE2020_MemLock.pdf)
 * [MOPT: Optimize Mutation Scheduling for Fuzzers (USENIX Security2019)](https://github.com/wcventure/FuzzingPaper/blob/master/Paper/USENIX19_MOPT.pdf)
-* [FuzzGen: Automatic Fuzzer Generation (USENIX Security2020)](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf)
+* [FuzzGen: Automatic Fuzzer Generation (USENIX Security2020)](https://www.usenix.org/system/files/sec20fall_ispoglou_prepub.pdf) -->
