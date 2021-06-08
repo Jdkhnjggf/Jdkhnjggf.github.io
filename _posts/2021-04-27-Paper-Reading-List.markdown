@@ -40,7 +40,7 @@ The THREE-PASS APPROACH
 
 **Side-Channel Attack:**
 * [Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)
-* 导师的PhD Thesis[Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
+* 导师的PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
 * [Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)
 * [SoK: Keylogging Side Channels](https://oaklandsok.github.io/papers/monaco2018.pdf)
 * [ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
