@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-06-07 13:16:00
+date:       2021-06-11 21:35:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -16,16 +16,28 @@ My English writing is so bad... I am taking a seminar lecture this semester and 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
 
 
-###
+### Spectre Attacks: Exploiting Speculative Execution
+[**Paper**](https://spectreattack.com/spectre.pdf)  *2021-06-11*
+
+**Summary:**
+ Spectre is similar to Meltdown, against memory isolation between kernel address and user address based on exploiting the side effect of out-of-order execution. After the impact of the transient instructions is reverted at the architecture level, the micro-architecture state remains changed, which can be leveraged to leak sensitive information. Spectre makes these instructions executed by mistraining branch predictor or poisoning indirect branches. The mechanism of conditional branch prediction is based on the previous results that attackers can manipulate. An attacker can also poison indirect branches with malicious destinations. Then the attacker needs to locate a particular gadget that allows access to memory at the attacker-chosen address. Eventually, Spectre can expose the attacker-chosen address via a broad range of convert channels.
+
+
+### Osiris: Automated Discovery of Microarchitectural Side Channels
+[**Paper**](https://publications.cispa.saarland/3431/1/main.pdf) *2021-06-09*
+TO SUMMARY 
+
+
+### Mining Input Grammars from Dynamic Control Flow
 [**Paper**](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)  *2021-06-07*
 
 **Summary:**
  This paper presents an algorithm, mimid, to recover program input grammar from the dynamic control flow. The algorithm consists of three steps: tracking control flows, gaining parse trees from traces, and inferring grammar from parse trees. First, the mimid algorithm instruments the parsing functions by adding trackers on the entry and exit of these methods and the entry and exit of control flow structures, e.g., if, loop in these methods. Each tracker is associated with an identifier. Next, the mimid algorithm assigns specific indexes of input to a particular tracker. It uses a strategy that the last method (or control flow structure) accessed a character directly consumes that character. Afterward, the corresponding method call directly owns the index range of input. Then, the indexes are added as leaf nodes to the method or control flow structure. The mimid algorithm then identifies where the nodes can be replaced with another to prune these parse trees. The algorithm regards a node as replaceable with another that the new generated string can be parsed correctly, named as compatible nodes. Although, Compatible is not transitive if check parse validity, mimid assume transitivity of compatibility since it rarely breaks and its effect on accuracy is minor, which is revealed in their evaluation. Eventually, the parse trees are well labeled to infer input grammar. Mimid algorithm traverses each parse tree, marks the non-character node as non-terminal. Then, non-character children of the node will be transformed as a rule of the non-terminal's expansion. In contrast, a character node will be placed as terminal. After traversing all the parse trees, the mimid algorithm generalizes regular expressions for terminals.
 
-###
+### Input Algebras
 [**Paper**](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)  *2021-05-17*
 
-###
+### Learning the Language of Error*
 [**Paper**](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)  *2021-05-17*
 
 **Summary:**
