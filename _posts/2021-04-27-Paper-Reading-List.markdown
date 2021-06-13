@@ -38,12 +38,18 @@ The THREE-PASS APPROACH
 * ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 
 
+**Microarchitecture:**
+* ~~[SEVered: Subverting AMD’s Virtual Machine Encryption](https://arxiv.org/pdf/1805.09604.pdf)~~
+* ~~[SEVurity: No Security Without Integrity Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://arxiv.org/pdf/2004.11071.pdf)~~
+* [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
+* [Intel SGX Explained](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#0b3ce3ba243e40f0b9e80e7cd4afb156)
+
 **Side-Channel Attack:**
-* [Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)
-* 导师的PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
-* [Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)
-* [SoK: Keylogging Side Channels](https://oaklandsok.github.io/papers/monaco2018.pdf)
+* ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
+* ~~[Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)~~
 * [ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
+* 导师的PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
+* [SoK: Keylogging Side Channels](https://oaklandsok.github.io/papers/monaco2018.pdf)
 * [Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)
 * [KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf)
 * [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
