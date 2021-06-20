@@ -16,6 +16,13 @@ My English writing is so bad... I am taking a seminar lecture this semester and 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
 
 
+### Compiler Validation via Equivalence Modulo Inputs
+[**Paper**](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)  *2021-06-19*
+
+**Summary:**
+ Compilers are always regarded as secure to generate correct programs. However, the possible miscompilitation leads to unexpected behavior, which could potentially result in damage. The paper introduces equivalence modulo inputs (EMI), a methodology for validating the compiler's optimization. Based on EMI, the author presents a tool, Orion, to generate EMI-variants of a program with a set of test inputs. Given a program P and an input set, the P's EMI-variants behave the same on the same input set. The key idea is that first tracks the program's execution information and outputs of a given input. Next, the tool randomly deletes the unexecuted code statements indicated by the last step to generate a collection of programs (EMI-variants). Later, the tool feeds the collection of programs and the original program's output to the targeted compilers with various configurations. If there are inconsistencies between a new compiled output and the original output, the compiler may have a miscompilitation bug. 
+
+
 ### Spectre Attacks: Exploiting Speculative Execution
 [**Paper**](https://spectreattack.com/spectre.pdf)  *2021-06-11*
 
