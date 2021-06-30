@@ -16,6 +16,13 @@ My English writing is so bad... I am taking a seminar lecture this semester and 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
 
 
+### MultiSE: Multi-Path Symbolic Execution using Value Summaries
+[**Paper**](https://people.eecs.berkeley.edu/~ksen/papers/multise.pdf)  *2021-06-27*
+
+**Summary:**
+ Compared to pure symbolic execution, concolic testing combines concrete execution and symbolic execution to reduce executed time significantly. However, concolic testing still does not scale to large programs for their huge program states. In order to cut down the paths to be explored, the conventional state merging mechanism introduces an auxiliary value to represent the merged value.  There is a problem that when the auxiliary variable has a floating-point predicate, the constraints solver may not support such calculation. The MultiSE merges state incrementally without using auxiliary variables based on an alternative representation of symbolic execution state. Its key point is to organize the symbolic state by variables' values instead of organizing by paths. Specifically, MultiSE proposes a new concept —— guarded symbolic expression. It is a pair that contains variables' symbolic expression and the corresponding distinct path constraint.  A set of guarded symbolic expressions is a value summary. MultiSE incrementally updates the value summary, avoiding scanning merged states at join points. Moreover, merging states without the auxiliary variable, MultiSE is proven to run faster than conventional state merging mechanisms in evaluation.
+
+
 ### Compiler Validation via Equivalence Modulo Inputs
 [**Paper**](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)  *2021-06-19*
 
