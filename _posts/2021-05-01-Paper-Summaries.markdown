@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Summaries"
 subtitle:   " Security Papers"
-date:       2021-06-11 21:35:00
+date:       2021-07-02 21:30:00
 author:     "luobobo"
 header-img: "img/post2.jpg"
 tags:
@@ -14,6 +14,13 @@ tags:
 My English writing is so bad... I am taking a seminar lecture this semester and am required to write paper summaries every week. Here I record some summaries of papers I've read as a way to practice writing skill.
 
 [**How to Summarize a Research Article**](https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf)
+
+
+### Smart Greybox Fuzzing
+[**Paper**](https://arxiv.org/pdf/1811.09447.pdf)  *2021-07-02*
+
+**Summary:**
+ Coverage-guided fuzzing (CGF) is a genetic algorithm where natural selection is based on achieving unique code coverage. However, there is a well-known limitation in CGF that its mutation operators work on the bit-level representation of inputs. At the same time, more and more target processes and libraries process highly structured inputs today. This paper proposes smart greybox fuzzing (SGF), which provides high-level structural mutation operators working on the virtual file structure of the representation of inputs. The virtual structure, containing the structural information of the input, is constructed by a file format specification and a parser component. In this way, SGF is more likely to generate seeds with maintaining the validity to pass the parsing state of the program. SGF also introduces a novel validity power schedule to assign more energy to seed with a higher degree of validity. Moreover, SGF starts to construct virtual structure only when exploring the new path slows down, which avoids sacrificing its efficiency to crack virtual structure for every seed. Eventually, based on these techniques, SGF can explore the target program's state deeper within limited time budgets.
 
 
 ### MultiSE: Multi-Path Symbolic Execution using Value Summaries

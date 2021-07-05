@@ -58,7 +58,7 @@ The THREE-PASS APPROACH
 * [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
 
 **Fuzzing (Seminar Task):**
-* [Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)
+* ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
 * [Ankou: guiding grey-box fuzzing towards combinatorial difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
 * [Ijon: Exploring Deep State Spaces via Fuzzing](https://wcventure.github.io/FuzzingPaper/Paper/SP20_IJON.pdf)
 * [AFL++ : Combining Incremental Steps of Fuzzing Research](https://www.usenix.org/system/files/woot20-paper-fioraldi.pdf)
