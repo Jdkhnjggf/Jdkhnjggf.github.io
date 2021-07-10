@@ -28,41 +28,39 @@ The THREE-PASS APPROACH
     - identify and challenge every assumption in every statement
 
 
+**Seminar Task(Selected Topics in Automated Testing and Debugging):**
+* ~~[FormatFuzzer: Effective Fuzzing of Binary File Formats](https://dl.cispa.de/s/3q2PyqP7rqZzrNn)~~
+* ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
+* ~~[MultiSE: Multi-Path Symbolic Execution using Value Summaries (MultiSE)](https://people.eecs.berkeley.edu/~ksen/papers/multise.pdf)~~
+* ~~[Compiler Validation via Equivalence Modulo Inputs (EMI)](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)~~
+* ~~[A review of reverse debugging (Time-travel Debugging) Engblom](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf)~~
 * ~~[Mining Input Grammars from Dynamic Control Flow](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)~~
 * ~~[Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)~~
 * ~~[Learning the Language of Error](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)~~
 * ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
-* ~~[Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
 * ~~[Abstracting Failure-Inducing Inputs](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)~~
 * ~~[When does my Program do this? Learning Circumstances of Software Behavior](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)~~
-* ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 
 
-**Microarchitecture:**
+**Microarchitecture & Side-Channel Attack:**
+* ~~[LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
+* ~~[ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)~~
+* ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
+* ~~[Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)~~
+* ~~[Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
 * ~~[SEVered: Subverting AMD’s Virtual Machine Encryption](https://arxiv.org/pdf/1805.09604.pdf)~~
 * ~~[SEVurity: No Security Without Integrity Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://arxiv.org/pdf/2004.11071.pdf)~~
 * ~~[CROSS LINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)~~
+* ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
+* ~~[Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)~~
+
 * [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
 * [Intel SGX Explained](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#0b3ce3ba243e40f0b9e80e7cd4afb156)
-
-**Side-Channel Attack:**
-* ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
-* ~~[Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)~~
-* [ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
 * 导师的PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
-* [SoK: Keylogging Side Channels](https://oaklandsok.github.io/papers/monaco2018.pdf)
-* [Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)
-* [KeyDrown: Eliminating Software-Based Keystroke Timing Side-Channel Attacks](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf)
 * [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
 * [Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)
 * [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
 
-**Fuzzing (Seminar Task):**
-* ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
-* [Ankou: guiding grey-box fuzzing towards combinatorial difference](https://www.jiliac.com/files/ankou-icse2020.pdf)
-* [Ijon: Exploring Deep State Spaces via Fuzzing](https://wcventure.github.io/FuzzingPaper/Paper/SP20_IJON.pdf)
-* [AFL++ : Combining Incremental Steps of Fuzzing Research](https://www.usenix.org/system/files/woot20-paper-fioraldi.pdf)
-* [WEIZZ: automatic grey-box fuzzing for structured binary formats](https://andreafioraldi.github.io/assets/weizz-issta2020.pdf)
 
 <!-- 
 * [Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu)
