@@ -35,11 +35,13 @@ The THREE-PASS APPROACH
 * ~~[Compiler Validation via Equivalence Modulo Inputs (EMI)](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)~~
 * ~~[A review of reverse debugging (Time-travel Debugging) Engblom](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf)~~
 * ~~[Mining Input Grammars from Dynamic Control Flow](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)~~
+* ~~[Dynamically discovering likely program invariants to support program evolution](https://homes.cs.washington.edu/~mernst/pubs/invariants-tse2001.pdf)~~
 * ~~[Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)~~
 * ~~[Learning the Language of Error](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)~~
 * ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
 * ~~[Abstracting Failure-Inducing Inputs](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)~~
 * ~~[When does my Program do this? Learning Circumstances of Software Behavior](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)~~
+* ~~[Simplifying and isolating failure-inducing input](https://www.st.cs.uni-saarland.de/papers/tse2002/tse2002.pdf)~~
 
 
 **Microarchitecture & Side-Channel Attack:**
