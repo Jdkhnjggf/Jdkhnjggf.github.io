@@ -30,6 +30,7 @@ The THREE-PASS APPROACH
 
 **TODO**
 * [Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)
+* [Intel SGX Explained](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#0b3ce3ba243e40f0b9e80e7cd4afb156)
 * [Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163052)
 * [T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_07-2_Shih_paper.pdf)
 * [Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX](https://dl.acm.org/doi/pdf/10.1145/3133956.3134038)
@@ -49,12 +50,10 @@ The THREE-PASS APPROACH
 * ~~[CROSS LINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)~~
 * ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 * ~~[Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)~~
-
-* [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
-* [Intel SGX Explained](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#0b3ce3ba243e40f0b9e80e7cd4afb156)
-* 导师的PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
 * [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
 * [Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)
+* [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
+* Mentor's PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
 * [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
 
 
