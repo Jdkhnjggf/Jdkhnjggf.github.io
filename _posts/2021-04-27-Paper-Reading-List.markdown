@@ -28,24 +28,17 @@ The THREE-PASS APPROACH
     - identify and challenge every assumption in every statement
 
 
-**Seminar Task(Selected Topics in Automated Testing and Debugging):**
-* ~~[FormatFuzzer: Effective Fuzzing of Binary File Formats](https://dl.cispa.de/s/3q2PyqP7rqZzrNn)~~
-* ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
-* ~~[MultiSE: Multi-Path Symbolic Execution using Value Summaries (MultiSE)](https://people.eecs.berkeley.edu/~ksen/papers/multise.pdf)~~
-* ~~[Compiler Validation via Equivalence Modulo Inputs (EMI)](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)~~
-* ~~[A review of reverse debugging (Time-travel Debugging) Engblom](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf)~~
-* ~~[Mining Input Grammars from Dynamic Control Flow](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)~~
-* ~~[Dynamically discovering likely program invariants to support program evolution](https://homes.cs.washington.edu/~mernst/pubs/invariants-tse2001.pdf)~~
-* ~~[Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)~~
-* ~~[Learning the Language of Error](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)~~
-* ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
-* ~~[Abstracting Failure-Inducing Inputs](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)~~
-* ~~[When does my Program do this? Learning Circumstances of Software Behavior](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)~~
-* ~~[Simplifying and isolating failure-inducing input](https://www.st.cs.uni-saarland.de/papers/tse2002/tse2002.pdf)~~
-
+**TODO**
+* [Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)
+* [Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163052)
+* [T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_07-2_Shih_paper.pdf)
+* [Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX](https://dl.acm.org/doi/pdf/10.1145/3133956.3134038)
+* [Telling Your Secrets without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)
+* [Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
+* [Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization](https://arxiv.org/pdf/1808.06478.pdf)
+* [CopyCat: Controlled Instruction-Level Attacks on Enclaves](https://www.usenix.org/system/files/sec20-moghimi-copycat.pdf)
 
 **Microarchitecture & Side-Channel Attack:**
-* ~~[Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)~~
 * ~~[LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
 * ~~[ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)~~
 * ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
@@ -64,6 +57,21 @@ The THREE-PASS APPROACH
 * [Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)
 * [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
 
+
+**Seminar Task(Selected Topics in Automated Testing and Debugging):**
+* ~~[FormatFuzzer: Effective Fuzzing of Binary File Formats](https://dl.cispa.de/s/3q2PyqP7rqZzrNn)~~
+* ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
+* ~~[MultiSE: Multi-Path Symbolic Execution using Value Summaries (MultiSE)](https://people.eecs.berkeley.edu/~ksen/papers/multise.pdf)~~
+* ~~[Compiler Validation via Equivalence Modulo Inputs (EMI)](https://www.cs.ucdavis.edu/~su/publications/emi.pdf)~~
+* ~~[A review of reverse debugging (Time-travel Debugging) Engblom](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.338.3420&rep=rep1&type=pdf)~~
+* ~~[Mining Input Grammars from Dynamic Control Flow](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)~~
+* ~~[Dynamically discovering likely program invariants to support program evolution](https://homes.cs.washington.edu/~mernst/pubs/invariants-tse2001.pdf)~~
+* ~~[Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)~~
+* ~~[Learning the Language of Error](http://www.cprover.org/learning-errors/learning-the-language-of-error-including-a-proof-supplement.pdf)~~
+* ~~[Simplifying and Isolating Failure-Inducing Input](https://hiper.cis.udel.edu/lp/lib/exe/fetch.php/courses/other-delta-zellertse.pdf)~~
+* ~~[Abstracting Failure-Inducing Inputs](https://publications.cispa.saarland/3103/7/issta2020-language-of-failure.pdf)~~
+* ~~[When does my Program do this? Learning Circumstances of Software Behavior](https://publications.cispa.saarland/3107/7/fse2020-alhazen.pdf)~~
+* ~~[Simplifying and isolating failure-inducing input](https://www.st.cs.uni-saarland.de/papers/tse2002/tse2002.pdf)~~
 
 <!-- 
 * [Constraint-guided Directed Greybox Fuzzing](https://www.usenix.org/conference/usenixsecurity21/presentation/lee-gwangmu)
