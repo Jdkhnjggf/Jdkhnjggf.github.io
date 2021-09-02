@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-07-11 00:00:00
+date:       2021-09-02 22:33:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,17 +29,23 @@ The THREE-PASS APPROACH
 
 
 **TODO**
-* [Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)
-* [Intel SGX Explained](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#0b3ce3ba243e40f0b9e80e7cd4afb156)
 * [Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163052)
 * [T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_07-2_Shih_paper.pdf)
 * [Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX](https://dl.acm.org/doi/pdf/10.1145/3133956.3134038)
 * [Telling Your Secrets without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)
 * [Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
-* [Mitigating Branch-Shadowing Attacks on Intel SGX using Control Flow Randomization](https://arxiv.org/pdf/1808.06478.pdf)
-* [CopyCat: Controlled Instruction-Level Attacks on Enclaves](https://www.usenix.org/system/files/sec20-moghimi-copycat.pdf)
+
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf)~~ 
+* ~~[Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks](https://www.usenix.org/system/files/sec21-ragab.pdf)~~ 
+* ~~[RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)~~ 
+* ~~[Fallout: Leaking Data on Meltdown-resistant CPUs](https://mdsattacks.com/files/fallout.pdf)~~ 
+* ~~[Transient Execution of Non-Canonical Accesses](https://saidganim.github.io/pdfs/AMD_NCTE.pdf)~~
+* ~~[Speculative Dereferencing: Reviving Foreshadow (Extended Version)](https://misc0110.net/files/specderef.pdf)~~  
+* ~~[Intel SGX Explained](https://eprint.iacr.org/2016/086.pdf)~~
+* ~~[Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)~~
+* ~~[Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)~~
 * ~~[LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
 * ~~[ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)~~
 * ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
@@ -51,13 +57,14 @@ The THREE-PASS APPROACH
 * ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 * ~~[Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)~~
 * [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
-* [Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)
 * [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
 * Mentor's PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
 * [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
 
+**Software Security:**
+* ~~[ObliCheck: Efficient Verification of Oblivious Algorithms with Unobservable State](https://www.usenix.org/system/files/sec21-son.pdf)~~
 
-**Seminar Task(Selected Topics in Automated Testing and Debugging):**
+**Seminar Task (Selected Topics in Automated Testing and Debugging):**
 * ~~[FormatFuzzer: Effective Fuzzing of Binary File Formats](https://dl.cispa.de/s/3q2PyqP7rqZzrNn)~~
 * ~~[Smart Greybox Fuzzing (AFLSmart)](https://arxiv.org/pdf/1811.09447.pdf)~~
 * ~~[MultiSE: Multi-Path Symbolic Execution using Value Summaries (MultiSE)](https://people.eecs.berkeley.edu/~ksen/papers/multise.pdf)~~
