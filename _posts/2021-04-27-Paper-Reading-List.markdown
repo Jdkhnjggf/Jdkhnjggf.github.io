@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-09-02 22:33:00
+date:       2021-09-03 00:20:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,10 +29,13 @@ The THREE-PASS APPROACH
 
 
 **TODO**
-* [Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7163052)
-* [T-SGX: Eradicating Controlled-Channel Attacks Against Enclave Programs](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_07-2_Shih_paper.pdf)
-* [Leaky Cauldron on the Dark Land: Understanding Memory Side-Channel Hazards in SGX](https://dl.acm.org/doi/pdf/10.1145/3133956.3134038)
-* [Telling Your Secrets without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)
+* [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
+* [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
+* [CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)
+* [DIFUZZRTL: Differential Fuzz Testing to Find CPU Bugs](https://lifeasageek.github.io/papers/jaewon-difuzzrtl.pdf)
+* [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/pdf/2006.03841.pdf)
+* [PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
+* [Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It](https://arxiv.org/pdf/2008.01957.pdf)
 * [Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
 
 
@@ -48,6 +51,7 @@ The THREE-PASS APPROACH
 * ~~[Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)~~
 * ~~[LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
 * ~~[ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)~~
+* ~~[Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)~~
 * ~~[Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
 * ~~[Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)~~
 * ~~[Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
@@ -56,10 +60,7 @@ The THREE-PASS APPROACH
 * ~~[CROSS LINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)~~
 * ~~[FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 * ~~[Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)~~
-* [Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)
-* [A Comparison Study of Intel SGX and AMD Memory Encryption Technology](https://www.notion.so/Notes-5423bb4deaaf4a498ed4c62b1d7be1e2#cc10b3e0f8f9491098bf1c246f975c90)
-* Mentor's PhD Thesis  [Software-based Side-Channel Attacks andDefenses in Restricted Environments](https://misc0110.net/files/phd_thesis.pdf)
-* [Theory and Practice of Finding Eviction Sets](https://arxiv.org/pdf/1810.01497.pdf)
+
 
 **Software Security:**
 * ~~[ObliCheck: Efficient Verification of Oblivious Algorithms with Unobservable State](https://www.usenix.org/system/files/sec21-son.pdf)~~
