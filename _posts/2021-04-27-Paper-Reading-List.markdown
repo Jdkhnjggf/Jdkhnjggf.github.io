@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-09-03 00:20:00
+date:       2021-09-05 22:50:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,9 +29,9 @@ The THREE-PASS APPROACH
 
 
 **TODO**
-* [CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
+* [Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
-* [CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)
+* [Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
 * [DIFUZZRTL: Differential Fuzz Testing to Find CPU Bugs](https://lifeasageek.github.io/papers/jaewon-difuzzrtl.pdf)
 * [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/pdf/2006.03841.pdf)
 * [PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
@@ -40,6 +40,8 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)~~
+* ~~[CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)~~
 * ~~[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf)~~ 
 * ~~[Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks](https://www.usenix.org/system/files/sec21-ragab.pdf)~~ 
 * ~~[RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)~~ 
