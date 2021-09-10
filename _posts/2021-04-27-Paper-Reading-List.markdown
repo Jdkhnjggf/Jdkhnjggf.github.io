@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-09-05 22:50:00
+date:       2021-09-10 03:20:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,6 +29,9 @@ The THREE-PASS APPROACH
 
 
 **TODO**
+* [Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)
+* [SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
+* [Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)
 * [Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
 * [Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
