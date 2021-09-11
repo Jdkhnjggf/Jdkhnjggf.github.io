@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-09-10 03:20:00
+date:       2021-09-11 23:00:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,9 +29,14 @@ The THREE-PASS APPROACH
 
 
 **TODO**
-* [Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)
 * [SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
-* [Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)
+* [Exorcising Spectres with Secure Compilers](https://publications.cispa.saarland/3327/1/prisc-spectre.pdf)
+* [CROSSLINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)
+* [Hardware Support to Improve Fuzzing Performance and Precision (to appear)]()
+* [HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/hyperfuzzer-ccs21.pdf)
+* [One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization](https://arxiv.org/pdf/2108.04575.pdf)
+* [Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks (to appear)]()
+* [SmashEx: Smashing SGX Enclaves Using Exceptions (to appear)]()
 * [Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
 * [Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
@@ -43,6 +48,9 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)
+* ~~[Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://misc0110.net/files/timers.pdf)
+* ~~[Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)
 * ~~[CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)~~
 * ~~[CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)~~
 * ~~[ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf)~~ 
