@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-09-11 23:00:00
+date:       2021-10-03 00:00:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,25 +29,24 @@ The THREE-PASS APPROACH
 
 
 **TODO**
+* [Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
 * [Exorcising Spectres with Secure Compilers](https://publications.cispa.saarland/3327/1/prisc-spectre.pdf)
 * [CROSSLINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)
-* [Hardware Support to Improve Fuzzing Performance and Precision (to appear)]()
+* [Hardware Support to Improve Fuzzing Performance and Precision](http://hparch.gatech.edu/papers/yonghae_2021_ccs.pdf)
 * [HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/hyperfuzzer-ccs21.pdf)
 * [One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization](https://arxiv.org/pdf/2108.04575.pdf)
-* [Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks (to appear)]()
 * [SmashEx: Smashing SGX Enclaves Using Exceptions (to appear)]()
 * [Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
 * [Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
-* [DIFUZZRTL: Differential Fuzz Testing to Find CPU Bugs](https://lifeasageek.github.io/papers/jaewon-difuzzrtl.pdf)
-* [Hardware-Software Contracts for Secure Speculation](https://arxiv.org/pdf/2006.03841.pdf)
 * [PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
 * [Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It](https://arxiv.org/pdf/2008.01957.pdf)
-* [Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks](https://www.esat.kuleuven.be/cosic/publications/article-3405.pdf)~~
+* ~~[Prime+Probe: Last-Level Cache Side-Channel Attacks arePractical](http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf)~~
 * ~~[Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)~~
 * ~~[Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://misc0110.net/files/timers.pdf)~~
 * ~~[Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)~~
