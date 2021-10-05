@@ -38,8 +38,8 @@ The THREE-PASS APPROACH
 * [SmashEx: Smashing SGX Enclaves Using Exceptions (to appear)]()
 * [(21 USENIX) Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [(16 ACSAC) Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
-* [21 SP) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
-* [21 SP) Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It](https://arxiv.org/pdf/2008.01957.pdf)
+* [(21 SP) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
+* [(21 SP) Randomized Last-Level Caches Are Still Vulnerable to Cache Side-Channel Attacks! But We Can Fix It](https://arxiv.org/pdf/2008.01957.pdf)
 
 
 **Microarchitecture & Side-Channel Attack:**
