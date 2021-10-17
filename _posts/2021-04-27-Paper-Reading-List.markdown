@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-10-05 03:00:02
+date:       2021-10-17 02:47:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,6 +29,8 @@ The THREE-PASS APPROACH
 
 
 **TODO**
+* [(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)
+* [(22 USENIX) Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX](https://misc0110.net/files/lvi_null_sec22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
 * [(21 CCS) Hardware Support to Improve Fuzzing Performance and Precision](http://hparch.gatech.edu/papers/yonghae_2021_ccs.pdf)
@@ -43,8 +45,9 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)
 * ~~[(17 ESORICS) Practical Keystroke Timing Attacks in Sandboxed JavaScript](https://misc0110.net/files/keystroke_js.pdf)~~
-* ~~[(22 SP) Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks](https://www.esat.kuleuven.be/cosic/publications/article-3405.pdf)~~
+* ~~[(21 CCS) Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks](https://www.esat.kuleuven.be/cosic/publications/article-3405.pdf)~~
 * ~~[(15 SP) Prime+Probe: Last-Level Cache Side-Channel Attacks are Practical](http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf)~~
 * ~~[(16 DIMVA) Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)~~
 * ~~[(17 FC) Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://misc0110.net/files/timers.pdf)~~
