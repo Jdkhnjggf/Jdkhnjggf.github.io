@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-10-17 02:47:02
+date:       2021-10-21 16:57:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,15 +29,14 @@ The THREE-PASS APPROACH
 
 
 **TODO**
-* [(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)
+* [(21 CCS) SmashEx: Smashing SGX Enclaves Using Exceptions](https://arxiv.org/pdf/2110.06657.pdf)
 * [(22 USENIX) Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX](https://misc0110.net/files/lvi_null_sec22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
 * [(21 CCS) Hardware Support to Improve Fuzzing Performance and Precision](http://hparch.gatech.edu/papers/yonghae_2021_ccs.pdf)
 * [(21 CCS) HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/hyperfuzzer-ccs21.pdf)
-* [One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization](https://arxiv.org/pdf/2108.04575.pdf)
+* [(21 CCS) One Glitch to Rule Them All: Fault Injection Attacks Against AMD’s Secure Encrypted Virtualization](https://arxiv.org/pdf/2108.04575.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
-* [SmashEx: Smashing SGX Enclaves Using Exceptions (to appear)]()
 * [(21 USENIX) Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 * [(16 ACSAC) Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
 * [(21 SP) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
@@ -45,7 +44,9 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
-* ~~[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)
+* ~~[(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)~~
+* ~~[(16 DIMVA) Flush+Flush: A Fast and Stealthy Cache Attack](https://gruss.cc/files/flushflush.pdf)~~
+* ~~[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)~~
 * ~~[(17 ESORICS) Practical Keystroke Timing Attacks in Sandboxed JavaScript](https://misc0110.net/files/keystroke_js.pdf)~~
 * ~~[(21 CCS) Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks](https://www.esat.kuleuven.be/cosic/publications/article-3405.pdf)~~
 * ~~[(15 SP) Prime+Probe: Last-Level Cache Side-Channel Attacks are Practical](http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf)~~
