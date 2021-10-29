@@ -34,14 +34,15 @@ The THREE-PASS APPROACH
 * [(20 SP) Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152636)
 * [(19 EuroS&P) SGXPECTRE: Stealing Intel Secrets from SGX Enclaves via Speculative Execution](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8806740)
 * [(18 CCS) Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
-* [() Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)
+* [(17 SysTEX) SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)
+* [(17 DIMVA) Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)
+* [(17 WOOT) Software Grand Exposure: SGX Cache Attacks Are Practical](https://www.usenix.org/system/files/conference/woot17/woot17-paper-brasser.pdf)
 
 **Re-reading SGX part**
 * [(21 SP) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
 * [(20 SP) LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)
 * [(19 CCS) ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
 * [(19 SP) RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)
-* [(18 USENIX) Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)
 
 
 **TODO**
