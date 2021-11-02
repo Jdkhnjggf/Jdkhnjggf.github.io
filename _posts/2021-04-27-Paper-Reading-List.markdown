@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-10-29 00:02:02
+date:       2021-11-03 00:11:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -29,20 +29,18 @@ The THREE-PASS APPROACH
 
 **TODO (next few days)**
 
+* [(17 USENIX) https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho]()
 * [(21 CCS) SmashEx: Smashing SGX Enclaves Using Exceptions](https://arxiv.org/pdf/2110.06657.pdf)
 * [SGAxe: How SGX Fails in Practice](https://cacheoutattack.com/files/SGAxe.pdf)
 * [(20 SP) Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9152636)
 * [(19 EuroS&P) SGXPECTRE: Stealing Intel Secrets from SGX Enclaves via Speculative Execution](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8806740)
 * [(18 CCS) Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
-* [(17 SysTEX) SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)
-* [(17 DIMVA) Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)
 * [(17 WOOT) Software Grand Exposure: SGX Cache Attacks Are Practical](https://www.usenix.org/system/files/conference/woot17/woot17-paper-brasser.pdf)
 
 **Re-reading SGX part**
 * [(21 SP) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
 * [(20 SP) LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)
 * [(19 CCS) ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
-* [(19 SP) RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)
 
 
 **TODO**
@@ -56,6 +54,8 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(17 SysTEX) SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)~~
+* ~~[(17 DIMVA) Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)~~
 * ~~[(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)~~
 * ~~[(16 DIMVA) Flush+Flush: A Fast and Stealthy Cache Attack](https://gruss.cc/files/flushflush.pdf)~~
 * ~~[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)~~
