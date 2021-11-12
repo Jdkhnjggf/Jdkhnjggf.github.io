@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2021-11-12 03:45:02
+date:       2021-11-13 00:10:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -40,8 +40,9 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(21 USENIX) CipherLeaks: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel](https://www.usenix.org/system/files/sec21-li-mengyuan.pdf)~~
 * ~~[(21 CCS) SmashEx: Smashing SGX Enclaves Using Exceptions](https://arxiv.org/pdf/2110.06657.pdf)~~
-* ~~[(18 SPACE)Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves](https://jovanbulck.github.io/files/space18-tutorial.pdf)~~
+* ~~[(18 SPACE) Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves](https://jovanbulck.github.io/files/space18-tutorial.pdf)~~
 * ~~[(17 SysTEX) SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)~~
 * ~~[(17 DIMVA) Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)~~
 * ~~[(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)~~
