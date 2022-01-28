@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2022-01-20 23:30:02
+date:       2022-01-29 00:41:02
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -37,6 +37,8 @@ The THREE-PASS APPROACH
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(17 USENIX) Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)
+* ~~[(17 USENIX) Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-disselkoen.pdf)
 * ~~[AMD SEV-SNP](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf)~~
 * ~~[(21 CCS) CROSS LINE: Breaking “Security-by-Crash” based Memory Isolation in AMD SEV](https://arxiv.org/pdf/2008.00146.pdf)~~
 * ~~[(21 USENIX) Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)~~
