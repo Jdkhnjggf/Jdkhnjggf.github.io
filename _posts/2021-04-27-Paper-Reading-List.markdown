@@ -27,16 +27,22 @@ The THREE-PASS APPROACH
 	- virtually re-implement the paper
     - identify and challenge every assumption in every statement
 
+**How to give a good review**
+1. Short summary (2-3 sentences) to show the authors that you understood what the important part of the paper is 
+2. Strengths and Weaknesses (1-5 bullet points each)
+3. Constructive feedback: if something is wrong/unclear/... provide feedback that helps the authors to fix that. (e.g., not just "I don't like that experiment", but rather "This experiment should be replaced with an experiment showing $XYZ")
+4. Do not only point out negative things, also mention things that are good and should stay that way (e.g., "Table X is really helpful, as it provides a great overview.")
 
 **TODO**
-* [(22 SP)BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
+* [(22 S&P)BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
 * [(16 ACSAC) Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
-* [(21 SP) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
+* [(21 S&P) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(13 S&P) SoK: Eternal War in Memory](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6547101&casa_token=r-r6lLBi480AAAAA:8dchTr9PsYNFhSkC-E3Q3KtbNOERNuOr1s5OYf6KdVdNxn4BpoCE3yoCVpJ0Nb2EGTHmTWuY4vtHRg)~~
 * ~~[(16 USENIX) DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_pessl.pdf)~~
 * ~~[(17 USENIX) Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)~~
 * ~~[(17 USENIX) Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-disselkoen.pdf)~~
@@ -48,34 +54,34 @@ The THREE-PASS APPROACH
 * ~~[(18 SPACE) Tutorial: Uncovering and Mitigating Side-Channel Leakage in Intel SGX Enclaves](https://jovanbulck.github.io/files/space18-tutorial.pdf)~~
 * ~~[(17 SysTEX) SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://core.ac.uk/download/pdf/129863707.pdf)~~
 * ~~[(17 DIMVA) Malware Guard Extension: Using SGX to Conceal Cache Attacks](https://arxiv.org/pdf/1702.08719.pdf)~~
-* ~~[(19 SP) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)~~
+* ~~[(19 S&P) Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)~~
 * ~~[(16 DIMVA) Flush+Flush: A Fast and Stealthy Cache Attack](https://gruss.cc/files/flushflush.pdf)~~
 * ~~[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)~~
 * ~~[(17 ESORICS) Practical Keystroke Timing Attacks in Sandboxed JavaScript](https://misc0110.net/files/keystroke_js.pdf)~~
 * ~~[(21 CCS) Prime+Scope: Overcoming the Observer Effect for High-Precision Cache Contention Attacks](https://www.esat.kuleuven.be/cosic/publications/article-3405.pdf)~~
-* ~~[(15 SP) Prime+Probe: Last-Level Cache Side-Channel Attacks are Practical](http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf)~~
+* ~~[(15 S&P) Prime+Probe: Last-Level Cache Side-Channel Attacks are Practical](http://palms.ee.princeton.edu/system/files/SP_vfinal.pdf)~~
 * ~~[(16 DIMVA) Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)~~
 * ~~[(17 FC) Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://misc0110.net/files/timers.pdf)~~
-* ~~[(22 SP) Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)~~
-* ~~[(21 SP) CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)~~
-* ~~[(21 SP) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)~~
+* ~~[(22 S&P) Spook.js: Attacking Chrome Strict Site Isolation via Speculative Execution](https://www.spookjs.com/files/spook-js.pdf)~~
+* ~~[(21 S&P) CROSSTALK: Speculative Data Leaks Across Cores Are Real](https://download.vusec.net/papers/crosstalk_sp21.pdf)~~
+* ~~[(21 S&P) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)~~
 * ~~[(21 USENIX) ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf)~~ 
 * ~~[(21 USENIX) Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks](https://www.usenix.org/system/files/sec21-ragab.pdf)~~ 
-* ~~[(19 SP) RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)~~ 
+* ~~[(19 S&P) RIDL: Rogue In-Flight Data Load](https://mdsattacks.com/files/ridl.pdf)~~ 
 * ~~[(19 CCS) Fallout: Leaking Data on Meltdown-resistant CPUs](https://mdsattacks.com/files/fallout.pdf)~~ 
 * ~~[(21 EuroSec) Transient Execution of Non-Canonical Accesses](https://saidganim.github.io/pdfs/AMD_NCTE.pdf)~~
 * ~~[(20 FC) Speculative Dereferencing: Reviving Foreshadow (Extended Version)](https://misc0110.net/files/specderef.pdf)~~  
 * ~~[Intel SGX Explained](https://eprint.iacr.org/2016/086.pdf)~~
 * ~~[(21 USENIX) Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://arxiv.org/pdf/2005.11516.pdf)~~
 * ~~[(20 USENIX) Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis](https://www.usenix.org/system/files/sec20-moghimi-medusa.pdf)~~
-* ~~[(20 SP) LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
+* ~~[(20 S&P) LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf)~~
 * ~~[(19 CCS) ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)~~
 * ~~[(17 Blackhat) Breaking the x86 ISA](https://www.blackhat.com/docs/us-17/thursday/us-17-Domas-Breaking-The-x86-Instruction-Set-wp.pdf)~~
 * ~~[(21 USENIX) Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)~~
 * ~~[(18 USENIX) Spectre Attacks: Exploiting Speculative Execution](https://spectreattack.com/spectre.pdf)~~
-* ~~[(19 SP) Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
+* ~~[(19 S&P) Meltdown: Reading Kernel Memory from User Space](https://meltdownattack.com/meltdown.pdf)~~
 * ~~[(18 EuroSec) SEVered: Subverting AMD’s Virtual Machine Encryption](https://arxiv.org/pdf/1805.09604.pdf)~~
-* ~~[(20 SP) SEVurity: No Security Without Integrity Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://arxiv.org/pdf/2004.11071.pdf)~~
+* ~~[(20 S&P) SEVurity: No Security Without Integrity Breaking Integrity-Free Memory Encryption with Minimal Assumptions](https://arxiv.org/pdf/2004.11071.pdf)~~
 * ~~[(14 USENIX) FLUSH+RELOAD: a High Resolution, Low Noise, L3 Cache Side-Channel Attack](https://eprint.iacr.org/2013/448.pdf)~~
 * ~~[(15 USENIX) Cache Template Attacks: Automating Attacks on Inclusive Last-Level Caches](https://gruss.cc/files/cta.pdf)~~
 
