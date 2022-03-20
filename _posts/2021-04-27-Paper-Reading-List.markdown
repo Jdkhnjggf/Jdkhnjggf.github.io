@@ -34,7 +34,13 @@ The THREE-PASS APPROACH
 4. Do not only point out negative things, also mention things that are good and should stay that way (e.g., "Table X is really helpful, as it provides a great overview.")
 
 **TODO**
-* [(22 S&P)BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
+* [(22 S&P) MeshUp: Stateless Cache Side-channel Attack on CPU Mesh](https://cpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/5/764/files/2022/01/oakland22.pdf)
+* [(22 USENIX) TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering](https://download.vusec.net/papers/tlbdr_sec22.pdf)
+* [(22 USENIX) SecSMT: Securing SMT Processors against Contention-Based Covert Channels](https://www.usenix.org/system/files/sec22summer_taram.pdf)
+* [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://arxiv.org/pdf/2105.05801.pdf)
+* [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
+* [(22 USENIX) HyperDegrade: From GHz to MHz Effective CPU Frequencies](https://www.usenix.org/system/files/sec22summer_aldaya.pdf)
+* [(22 S&P) BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
 * [(16 ACSAC) Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
