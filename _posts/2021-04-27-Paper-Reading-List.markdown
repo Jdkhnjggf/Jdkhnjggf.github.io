@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2022-02-01 12:59:00
+date:       2022-04-11 20:59:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -34,7 +34,6 @@ The THREE-PASS APPROACH
 4. Do not only point out negative things, also mention things that are good and should stay that way (e.g., "Table X is really helpful, as it provides a great overview.")
 
 **TODO**
-* [(22 S&P) MeshUp: Stateless Cache Side-channel Attack on CPU Mesh](https://cpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/5/764/files/2022/01/oakland22.pdf)
 * [(22 USENIX) TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering](https://download.vusec.net/papers/tlbdr_sec22.pdf)
 * [(22 USENIX) SecSMT: Securing SMT Processors against Contention-Based Covert Channels](https://www.usenix.org/system/files/sec22summer_taram.pdf)
 * [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://arxiv.org/pdf/2105.05801.pdf)
@@ -43,11 +42,11 @@ The THREE-PASS APPROACH
 * [(22 S&P) BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 * [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
-* [(16 ACSAC) Amplifying Side Channels Through Performance Degradation](https://eprint.iacr.org/2015/1141.pdf)
 * [(21 S&P) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
 
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[(22 USENIX) Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX](https://publications.cispa.saarland/3493/1/lvi_null_sec22.pdf)~~
 * ~~[(13 S&P) SoK: Eternal War in Memory](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6547101&casa_token=r-r6lLBi480AAAAA:8dchTr9PsYNFhSkC-E3Q3KtbNOERNuOr1s5OYf6KdVdNxn4BpoCE3yoCVpJ0Nb2EGTHmTWuY4vtHRg)~~
 * ~~[(16 USENIX) DRAMA: Exploiting DRAM Addressing for Cross-CPU Attacks](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_pessl.pdf)~~
 * ~~[(17 USENIX) Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-van_bulck.pdf)~~
