@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2022-04-11 20:59:00
+date:       2022-06-09 22:11:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -34,17 +34,25 @@ The THREE-PASS APPROACH
 4. Do not only point out negative things, also mention things that are good and should stay that way (e.g., "Table X is really helpful, as it provides a great overview.")
 
 **TODO**
-* [(22 USENIX) SecSMT: Securing SMT Processors against Contention-Based Covert Channels](https://www.usenix.org/system/files/sec22summer_taram.pdf)
+
+* [(22 S&P) Finding and Exploiting CPU Features using MSR Templating](https://misc0110.net/files/msrtemplate_sp22.pdf)
+* [(22 S&P) A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP]()
+* [(22 S&P) Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
+* [(22 S&P) Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
+* [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2022:spectre-sok.pdf)
+* [(22 USENIX) Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86]()
+* [(22 USENIX) Retbleed: Arbitrary Speculative Code Execution with Return Instructions]()
+* [(22 USENIX) Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks](https://www.usenix.org/system/files/sec22fall_kogler.pdf)
+* [(22 NDSS) KASPER: Scanning for Generalized Transient Execution Gadgets in the Linux](https://download.vusec.net/papers/kasper_ndss22.pdf)
 * [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://arxiv.org/pdf/2105.05801.pdf)
-* [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
-* [(22 USENIX) HyperDegrade: From GHz to MHz Effective CPU Frequencies](https://www.usenix.org/system/files/sec22summer_aldaya.pdf)
 * [(22 S&P) BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
 * [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
-* [(21 USENIX) SMASH: Synchronized Many-sided Rowhammer Attacks from JavaScript](https://www.usenix.org/system/files/sec21-de-ridder.pdf)
-* [(21 S&P) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
-
+* [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
 
 **Microarchitecture & Side-Channel Attack:**
+* ~~[Confidential Currently]()~~
+* ~~[Confidential Currently]()~~
+* ~~[(21 S&P) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)~~
 * ~~[(22 USENIX) TLB;DR: Enhancing TLB-based Attacks with TLB Desynchronized Reverse Engineering](https://download.vusec.net/papers/tlbdr_sec22.pdf)~~
 * ~~[(22 USENIX) Repurposing Segmentation as a Practical LVI-NULL Mitigation in SGX](https://publications.cispa.saarland/3493/1/lvi_null_sec22.pdf)~~
 * ~~[(13 S&P) SoK: Eternal War in Memory](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6547101&casa_token=r-r6lLBi480AAAAA:8dchTr9PsYNFhSkC-E3Q3KtbNOERNuOr1s5OYf6KdVdNxn4BpoCE3yoCVpJ0Nb2EGTHmTWuY4vtHRg)~~
