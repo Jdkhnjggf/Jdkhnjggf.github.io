@@ -40,7 +40,6 @@ The THREE-PASS APPROACH
 * [(22 S&P) Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
 * [(22 S&P) Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
 * [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://cseweb.ucsd.edu/~dstefan/pubs/cauligi:2022:spectre-sok.pdf)
-* [(22 USENIX) Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86]()
 * [(22 USENIX) Retbleed: Arbitrary Speculative Code Execution with Return Instructions]()
 * [(22 NDSS) KASPER: Scanning for Generalized Transient Execution Gadgets in the Linux](https://download.vusec.net/papers/kasper_ndss22.pdf)
 * [(22 S&P) SoK: Practical Foundations for Software Spectre Defenses](https://arxiv.org/pdf/2105.05801.pdf)
@@ -49,8 +48,9 @@ The THREE-PASS APPROACH
 * [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
 
 **Microarchitecture & Side-Channel Attack:**
-* [(22 USENIX) Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks](https://www.usenix.org/system/files/sec22fall_kogler.pdf)
-* [(20 S&P) Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://plundervolt.com/doc/plundervolt.pdf)
+* ~~[(22 USENIX) Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/hertzbleed.pdf)~~
+* ~~[(22 USENIX) Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks](https://www.usenix.org/system/files/sec22fall_kogler.pdf)~~
+* ~~[(20 S&P) Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://plundervolt.com/doc/plundervolt.pdf)~~
 * ~~[Confidential Currently]()~~
 * ~~[Confidential Currently]()~~
 * ~~[(21 S&P) PLATYPUS: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)~~
