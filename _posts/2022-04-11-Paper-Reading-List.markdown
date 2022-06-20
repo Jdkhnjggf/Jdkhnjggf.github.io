@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2022-06-19 00:11:00
+date:       2022-06-19 02:41:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -48,7 +48,8 @@ The THREE-PASS APPROACH
 * [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
 
 **Microarchitecture & Side-Channel Attack:**
-1. ~~[(16 ESSoS) HexPADS: a platform to detect “stealth” attacks](http://www.nebelwelt.net/publications/files/16ESSoS.pdf)~~
+1. ~~[(16 RAID) CloudRadar: A Real-Time Side-Channel Attack Detection System in Clouds](https://yinqian.org/papers/raid16.pdf)~~
+51. ~~[(16 ESSoS) HexPADS: a platform to detect “stealth” attacks](http://www.nebelwelt.net/publications/files/16ESSoS.pdf)~~
 50. ~~[(22 USENIX) Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/hertzbleed.pdf)~~
 49. ~~[(22 USENIX) Minefield: A Software-only Protection for SGX Enclaves against DVFS Attacks](https://www.usenix.org/system/files/sec22fall_kogler.pdf)~~
 48. ~~[(20 S&P) Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://plundervolt.com/doc/plundervolt.pdf)~~
