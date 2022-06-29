@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper-Reading-List"
 subtitle:   " Security Papers"
-date:       2022-06-27 21:41:00
+date:       2022-06-28 02:01:00
 author:     "luobobo"
 header-img: "img/post1.jpg"
 tags:
@@ -36,14 +36,14 @@ The THREE-PASS APPROACH
 **TODO**
 
 * [(22 S&P) A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP]()
-* [(22 S&P) Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
 * [(22 S&P) Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest](https://www.prefetchers.info/augury.pdf)
 * [(22 USENIX) Retbleed: Arbitrary Speculative Code Execution with Return Instructions]()
 * [(22 S&P) BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
 * [(22 S&P) SpecHammer: Combining Spectre and Rowhammer for New Speculative Attacks](https://rtcl.eecs.umich.edu/rtclweb/assets/publications/2022/oakland22-tobah.pdf)
 
 **Microarchitecture & Side-Channel Attack:**
-1. ~~[(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)~~
+1. ~~[(22 S&P) Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)~~
+54. ~~[(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)~~
 53. ~~[(22 S&P) Finding and Exploiting CPU Features using MSR Templating](https://misc0110.net/files/msrtemplate_sp22.pdf)~~
 52. ~~[(16 RAID) CloudRadar: A Real-Time Side-Channel Attack Detection System in Clouds](https://yinqian.org/papers/raid16.pdf)~~
 51. ~~[(16 ESSoS) HexPADS: a platform to detect “stealth” attacks](http://www.nebelwelt.net/publications/files/16ESSoS.pdf)~~
