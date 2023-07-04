@@ -75,6 +75,7 @@ The THREE-PASS APPROACH
 4.  [(19 CCS) Fallout: Leaking Data on Meltdown-resistant CPUs](https://mdsattacks.com/files/fallout.pdf) 
 5.  [(20 FC) Speculative Dereferencing: Reviving Foreshadow (Extended Version)](https://misc0110.net/files/specderef.pdf)  
 6.  [(19 CCS) ZombieLoad: Cross-Privilege-Boundary Data Sampling](https://zombieloadattack.com/zombieload.pdf)
+7.  [(21 S&P) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
 
 **DVFS-Based**
 1.  [(22 USENIX) Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86](https://www.hertzbleed.com/hertzbleed.pdf)
@@ -117,8 +118,7 @@ The THREE-PASS APPROACH
 **Others & SoK:**
 1.  [(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 2.  [(13 S&P) SoK: Eternal War in Memory](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6547101&casa_token=r-r6lLBi480AAAAA:8dchTr9PsYNFhSkC-E3Q3KtbNOERNuOr1s5OYf6KdVdNxn4BpoCE3yoCVpJ0Nb2EGTHmTWuY4vtHRg)
-3.  [(21 S&P) CacheOut: Leaking Data on Intel CPUs via Cache Evictions](https://cacheoutattack.com/files/CacheOut.pdf)
-4.  [(21 USENIX) ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf) 
+3.  [(21 USENIX) ExpRace: Exploiting Kernel Races through Raising Interrupts](https://www.usenix.org/system/files/sec21-lee-yoochan.pdf) 
 
 
 <!-- **Software Security:**
