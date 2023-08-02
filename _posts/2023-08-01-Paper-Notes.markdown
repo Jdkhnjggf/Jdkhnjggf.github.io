@@ -4,7 +4,7 @@ title:      "Microarchitecture Security Paper Note（中文向）"
 subtitle:   ""
 date:       2023-08-01 02:01:00
 author:     "luobobo"
-header-img: "img/post1.jpg"
+header-img: "img/paper-note-bg.jpg"
 tags:
     - paper
 ---
