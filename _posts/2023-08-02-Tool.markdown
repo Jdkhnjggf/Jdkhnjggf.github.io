@@ -1,0 +1,70 @@
+---
+layout:     post
+title:      "Microarchitecture Security Tool（中文向）"
+subtitle:   "微架构安全Toolkit"
+date:       2023-08-02 02:01:00
+author:     "luobobo"
+header-img: "img/paper-note-bg.jpg"
+tags:
+    - tool
+---
+
+> "We're trying to do things here that aren't supposed to be done."
+
+微架构安全确实存在门槛，尤其是刚开始写代码的时候常常会无从下手。
+但截至目前为止已经有不少researcher公开的工具了。
+这篇主要介绍我所知的一些工具，减小信息差，避免重复造轮子(防止你的idea因为不得不重复造的轮子而被scoop)。
+
+
+[Cache Template Attacks](https://github.com/IAIK/cache_template_attacks.git)
+
+如何用assembly实现最基础的side channels，如何找到相关的threshold。cacheutils.h至今还是我最常用的。
+
+[PTEditor](https://github.com/misc0110/PTEditor) 
+
+A small library to modify all page-table levels of all processes from user space for x86_64 (Linux and Windows 10) and ARMv8 (Linux). It also allows to read and program memory types (i.e., PATs on x86 and MAIRs on ARM).
+Remap, 更改memory type, 更改page的权限等，很实用。
+
+[r0e](https://github.com/misc0110/r0e)
+
+This small header allows executing functions in your application in ring 0.
+一个interrupt-based的小工具，hook一个idt，可以让我们在userspace执行ring0的代码(e.g., wrmsr)。当要测的代码很小且不想写kernel module的时候很实用。
+
+
+[PMC-PMI](https://github.com/b-shi/PMC-PMI)
+
+PMC-PMI is a linux kernel module which uses performance monitoring interrupts(PMI) to record performance counter events each cpu cycle. 
+玩过一阵子，可惜当时太菜了。
+
+[PRIME-SCOPE](https://github.com/KULeuven-COSIC/PRIME-SCOPE)
+
+其中的primetime可以用来找Effective prime access patterns.
+
+[sgx-step](https://github.com/jovanbulck/sgx-step)
+
+SGX-Step consists of an adversarial Linux kernel driver and a small user-space operating system library that allows to configure untrusted page table entries and/or x86 APIC timer interrupts completely from user space. 
+
+也是Interrupt-based的一个框架，通过一个合适的APIC interval根据攻击场景实现zero-step或single-step。如果要做TEE安全的话，这个框架是绕不开的。Intel出了新的功能(AEX-Notify)来mitigate这种类型的攻击，但我还没仔细看:)
+
+[libtea](https://github.com/libtea/frameworks)
+
+有点像PTEditor和sgx-step的整合，但同时还提供了在browser里的toolkit。总之我很推荐去看看这篇paper的[presentation](https://www.youtube.com/watch?v=s5zG6fcglgc&t=45s)，也是引言的出处。
+
+[Osiris](https://github.com/cispa/osiris)
+
+The framework is developed to find microarchitectural side channels in an automated manner. Currently the implementation supports only x86 processors.
+
+[nanoBench](https://github.com/andreas-abel/nanobench)
+
+nanoBench is a Linux-based tool for running small microbenchmarks on recent Intel and AMD x86 CPUs. The microbenchmarks are evaluated using hardware performance counters. The reading of the performance counters is implemented in a way that incurs only minimal overhead.
+用这个得稍微小心点，容易freeze machine。 - -!! 请确保别一上来就往server上干。
+
+[msrevelio](https://github.com/IAIK/msrevelio)
+
+一个结合nanoBench，自动化测试doc/undoc MSR bits对instructions执行有什么影响的框架。
+
+[libflush](https://github.com/IAIK/armageddon/tree/master/libflush)
+
+Library for cache attacks with a focus on ARM.
+
+未完待续。欢迎补充, just drop me an email.
