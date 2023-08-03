@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Microarchitecture Security Paper Note（中文向）"
-subtitle:   ""
+subtitle:   "微架构安全"
 date:       2023-08-01 02:01:00
 author:     "luobobo"
 header-img: "img/paper-note-bg.jpg"
@@ -74,16 +74,56 @@ P+P每次都得access一长串addrs怎么办？P+S可以把它简化到每次res
 
 L3 cache 是multi-processors共享的，可以把它们看成一个环。作者present了一种由ring之间contention引起的timing-based side channel。
 
-[(22 S&P) Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
+[[22 S&P] Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
 
 Prefetch instructions 也可以用来做side channel attacks。文中还分析了各种prefetch指令与cache coherence state之间的关系。
 
-[(22 USENIX) AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)
+[[22 USENIX] AMD Prefetch Attacks through Power and Time](https://misc0110.net/files/amd_prefetch_sec22.pdf)
 
 Prefetch instructions 可以用来infer TLB state，Timing和Power上都有差距。
 
-[(22 USENIX) Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
+[[22 USENIX] Rapid Prototyping for Microarchitectural Attacks](https://misc0110.net/files/rapid_prototyping_sec22.pdf)
 
 一个很好的框架/库来实施各种各样的microarchitectural attacks。
 
-未完待续(下次更TEE，DVFS)
+### TEE
+Trusted Execution Attacks拥有一个更强大的threat model —— 攻击者可以是hypervisor。意味着攻击者可以执行privileged code。
+
+[[17 SysTEX] SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://people.cs.kuleuven.be/~jo.vanbulck/systex17.pdf)
+
+Interrupt-based的一个框架，通过一个合适的APIC interval根据攻击场景实现zero-step或single-step。这篇主要是介绍了下框架。
+
+[[18 CCS] Nemesis: Studying Microarchitectural Timing Leaks in Rudimentary CPU Interrupt Logic](https://people.cs.kuleuven.be/~jo.vanbulck/ccs18.pdf)
+
+SGX-Step的作者展示了如何用这个框架infer instruction-granular execution state (Observe the timing of step)。
+
+[[20 USENIX] COPYCAT: Controlled Instruction-Level Attacks on Enclaves](https://www.usenix.org/system/files/sec20-moghimi-copycat.pdf)
+
+Nemesis加强版，结合page-level，能更大力度的infer control flow。
+
+[[21 USENIX] Frontal Attack: Leaking Control-Flow in SGX via the CPU Frontend](https://www.usenix.org/system/files/sec21-puddu.pdf)
+
+在Code Fetch的阶段，当相同的代码位于不同的offset时(mod 16bytes), single-step的latency可观测到不一样。
+
+[[22 USENIX] AEPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture](https://www.usenix.org/system/files/sec22-borrello.pdf)
+
+APIC是一个MMIO page，包含了众多registers。但目前有用(有记录)的只占其中一小部分。作者发现在Intel的新架构下，直接访问未记载的部分可以直接leak superqueue(一个L2和L3之间的buffer)
+中的数据。
+
+[[19 CCS / 20 Asian HOST] VoltJockey: Breaching TrustZone by Software-Controlled Voltage Manipulation over Multi-core Frequencies](https://dl.acm.org/doi/abs/10.1145/3319535.3354201)
+
+不同的指令对CPU所提供的电压需求不同，CPU有接口可以动态调整自己的电压/频率/能量消耗。作者调整电压，inject fault，还原AES/RSA密钥。第一次在Arm上，后Intel。
+
+[[20 S&P] Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://plundervolt.com/doc/plundervolt.pdf)
+
+作者通过当时CPU提供的接口，可以software-based地调整电压，使目标指令执行的结果错误，attack Intel SGX。
+
+[[21 S&P] Platypus: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
+
+CPU在当时可以从userspace读取power consumption，作者发现当CPU执行不同的指令，甚至相同指令处理不同操作数时，能量消耗不同。可以结合zero-step进行攻击。
+
+[[22 USENIX](Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86)](https://www.hertzbleed.com/hertzbleed.pdf)
+
+作者发现Platypus Attack中指令对power consumption的影响，同样适用于CPU Frequency上。而且Frequency是userspace可读的。
+
+未完待续。欢迎补充/纠错, just drop me an email.
