@@ -20,6 +20,10 @@ tags:
 
 如何用assembly实现最基础的side channels，如何找到相关的threshold。cacheutils.h至今还是我最常用的。
 
+[Mastik](https://cs.adelaide.edu.au/~yval/Mastik/)
+
+Another toolkit for side-channel attacks.
+
 [PTEditor](https://github.com/misc0110/PTEditor) 
 
 A small library to modify all page-table levels of all processes from user space for x86_64 (Linux and Windows 10) and ARMv8 (Linux). It also allows to read and program memory types (i.e., PATs on x86 and MAIRs on ARM).
@@ -30,6 +34,9 @@ Remap, 更改memory type, 更改page的权限等，很实用。
 This small header allows executing functions in your application in ring 0.
 一个interrupt-based的小工具，hook一个idt，可以让我们在userspace执行ring0的代码(e.g., wrmsr)。当要测的代码很小且不想写kernel module的时候很实用。
 
+[Transynther](https://github.com/vernamlab/medusa/tree/master/Transynther)
+
+Fuzz Testing Meltdown-style attacks
 
 [PMC-PMI](https://github.com/b-shi/PMC-PMI)
 
@@ -70,5 +77,13 @@ Library for cache attacks with a focus on ARM.
 [Security-RISC](https://github.com/cispa/Security-RISC)
 
 A bunch of microarchitectural attacks are tested on both the Alwinner C906 and SiFive U74 processors (RISC-V).
+
+[AssemblyLine](https://github.com/0xADE1A1DE/AssemblyLine)
+
+An ultra-lightweight C library and binary for generating machine code of x86_64 assembly language and executing on the fly without invoking another compiler, assembler or linker.
+
+[robsize](https://github.com/travisdowns/robsize)
+
+ROB size testing utility
 
 未完待续。欢迎补充, just drop me an email.
