@@ -4,7 +4,7 @@ title:      "CacheWarp —— AMD CPUs上的新漏洞"
 subtitle:   ""
 date:       2023-11-16 02:01:00
 author:     "luobobo"
-header-img: "img/timewarp-log.png"
+header-img: "img/timewarp-log.jpg"
 tags:
     - paper
 ---
@@ -28,7 +28,7 @@ CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希�
 
 
 
-![image-20231116213319123](../img/timewarp_toy.png)
+![timewarp_toy](../img/timewarp_toy.jpg)
 
 上图代码展示了我们为TimeWarp设计的一个toy example，while循环中判断函数ret1()的返回值是否为0 (当然不是)，之后再调用函数ret0()。理论上来说，这个函数永远也执行不了puts("WIN")。
 
@@ -38,7 +38,7 @@ CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希�
 
 0=0，bingo，我们在命令行上看到“WIN”。
 
-![image-20231116215434864](../img/timewap-toy-work.png)
+![timewap-toy-work](../img/timewap-toy-work.jpg)
 
 看到我post的图之后，Youheng风风火火地从隔壁赶来跟我"Give me Five!"
 
@@ -50,7 +50,7 @@ CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希�
 
 #### OpenSSH - "Works"
 
-![image-20231116220212907](../img/timewarp-openssh.png)
+![timewarp-openssh](../img/timewarp-openssh.jpg)
 
 Maybe是几杯咖啡下肚，或者是去买饮料的路上呼吸的新鲜空气，我们很快找到了新的Gadget。
 
@@ -64,7 +64,7 @@ Maybe是几杯咖啡下肚，或者是去买饮料的路上呼吸的新鲜空气
 
 第二种方法，可以对缓存进行操作，并重置guest对数据所做的更改
 
-![image-20231116220938415](../img/dropforge-toy.png)
+![dropforge-toy](../img/dropforge-toy.jpg)
 
 上图为另一个toy example，理论上说只要1*10+1 == 11，循环就不会被打破。但任何Memory writes，包括由编译器引入的参数传递，局部变量，返回值，只要写在内存中，都有可能会在缓存阶段被抹除。
 
@@ -83,7 +83,7 @@ mov [MEM], rax <-- TARGET
 
 就这样轻松地成为了root。
 
-![sudo-happy](../img/sudo-happy.png)
+![sudo-happy](img/sudo-happy.jpg)
 
 
 
