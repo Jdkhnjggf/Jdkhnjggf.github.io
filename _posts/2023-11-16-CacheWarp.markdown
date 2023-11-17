@@ -14,7 +14,7 @@ tags:
 
 这周三，我们披露了新的AMD CPU漏洞 —— CacheWarp (CVE-2023-20592) ! 攻击者可以在一分钟内直连进Victim VM并且完成权限提升为root账户。
 
-欢迎在我们的[网站](https://cachewarpattack.com/)上查看上传的Demo视频，完整的学术论文，以及已开源的全部代码。
+欢迎在我们的[网站](https://cachewarpattack.com/)上查看上传的[Demo视频](https://cachewarpattack.com/#demo)，[完整的学术论文(Usenix'24)](https://cachewarpattack.com/paper.pdf)，以及[已开源的全部代码](https://github.com/cispa/CacheWarp)。
 
 CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希望通过SEV，云用户(guest VM)可以信任云服务商(Hypervisor)，因为每一个guest VM都会分配到一个由芯片单独生成的key并用此加密，没有其他人可以读/更改。SEV在近几年进行过两次安全升级，分别为SEV-ES与SEV-SNP。在去年，Google Project Zero和Google Cloud Security一起为SEV-SNP做了安全审计，AMD宣称SEV-SNP保护了Guest VM的完整性，没有人可以篡改其数据。
 
