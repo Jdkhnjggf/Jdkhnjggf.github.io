@@ -32,29 +32,28 @@ CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希�
 
 上图代码展示了我们为TimeWarp设计的一个toy example，while循环中判断函数ret1()的返回值是否为0 (当然不是)，之后再调用函数ret0()。理论上来说，这个函数永远也执行不了puts("WIN")。
 
+程序在执行函数ret1 (对应着汇编代码的Line5) 之前，返回地址(Line6)会被保存至栈上。在执行函数ret0 (Line12) 之前，返回地址(Line13)会被保存至栈上同一位置，覆盖原来的返回地址(Line6)。
 
+然而，新的返回地址将先被保存在缓存中，稍后才会写回到内存里。在此之前，攻击者使用INVD把它抹去了。CPU将以函数ret0的返回值，跳转回到执行完函数ret1后返回的位置，就像ret1()返回了0一样。
 
-执行ret1 (对应着汇编代码的Line5) 之前，返回地址(Line6)会被保存至栈上。在执行ret0 (Line12) 之前，返回地址(Line13)会被保存至栈上同一位置，覆盖原来的返回地址(Line6)。 但在它还在缓存中时，INVD把它抹去了。CPU将以ret0的返回值，跳转回到执行完ret1后返回的位置。
-
-0=0，bingo，我们在命令行上看到“WIN”。
+$0 = 0$，bingo，我们在命令行上看见了“WIN”。
 
 ![timewap-toy-work](/img/timewap-toy-work.jpg)
 
 看到我post的图之后，Youheng风风火火地从隔壁赶来跟我"Give me Five!"
 
+一番讨论后，我们第一个要测的strcmp，理论上来说它很常用且相当好attack。有了TimeWarp以后我们可以轻松地让任意两个字符串完全匹配。因为，我们可以用任一后续函数的返回值作为strcmp的结果，也就是匹配成功。
 
-
-一番讨论后，我们第一个要测的strcmp，理论上来说它很常用且相当好attack。有了TimeWarp以后我们可以轻松地让任意两个字符串完全匹配。可惜在现实中strcmp都因为optimization被编译器优化掉了。我们不得不找新的Gadgets.
-
+可惜在现实中strcmp都因为optimization被编译器优化掉了。我们不得不找新的Gadgets.
 
 
 #### OpenSSH - "Works"
 
 ![timewarp-openssh](/img/timewarp-openssh.jpg)
 
-Maybe是几杯咖啡下肚，或者是去买饮料的路上呼吸的新鲜空气，我们很快找到了新的Gadget。
+Maybe是几杯咖啡下肚，或者是去买饮料的路上呼吸到了新鲜空气，我们很快找到了新的Gadget。
 
-既然strcmp不行， 我们在Line 9执行xcrypt后使用Timewarp，时间回到Line 5，*pw_password指向了新的地址——xcrypt(password, salt)，也就是后文中与encrypted_password相同的值。
+既然strcmp不行， 我们在Line 9执行xcrypt后使用Timewarp，时间回到Line 5，但此时返回值已经不再是shadow_pw(pw)，*pw_password指向了新的地址——xcrypt(password, salt)，也就是后文中与encrypted_password相同的值。
 
 无需得知ssh的密码，Attacker就能登进你的VM！
 
@@ -62,11 +61,11 @@ Maybe是几杯咖啡下肚，或者是去买饮料的路上呼吸的新鲜空气
 
 ### DropForge --- 锻造
 
-第二种方法，可以对缓存进行操作，并重置guest对数据所做的更改
+第二种方法，可以对缓存进行操作，并重置guest对数据所做的更改。通过一次或多次的Drop wirtes，锻造出一段操纵control flow的漏洞利用代码。
 
 ![dropforge-toy](/img/dropforge-toy.jpg)
 
-上图为另一个toy example，理论上说只要1*10+1 == 11，循环就不会被打破。但任何Memory writes，包括由编译器引入的参数传递，局部变量，返回值，只要写在内存中，都有可能会在缓存阶段被抹除。
+上图为另一个toy example，victim(1,1)理论上说只要1*10+1 == 11，循环就不会被打破。但任何Memory writes，包括由编译器引入的参数传递，局部变量，返回值，只要写在内存中，都有可能会在缓存阶段被抹除。
 
 #### sudo
 
