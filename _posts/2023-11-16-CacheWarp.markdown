@@ -36,7 +36,7 @@ CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希�
 
 然而，新的返回地址将先被保存在缓存中，稍后才会写回到内存里。在此之前，攻击者使用INVD把它抹去了。CPU将以函数ret0的返回值，跳转回到执行完函数ret1后返回的位置，就像ret1()返回了0一样。
 
-$0 = 0$，bingo，我们在命令行上看见了“WIN”。
+0 = 0，bingo，我们在命令行上看见了“WIN”。
 
 ![timewap-toy-work](/img/timewap-toy-work.jpg)
 
