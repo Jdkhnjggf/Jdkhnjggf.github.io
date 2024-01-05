@@ -55,7 +55,7 @@ Meltdown & Spectre之前大家对于side channel还只是停留在break cryptogr
 标题总结完了。各种variants和defenses。有个mind map https://transient.fail/
 【去读/复现。(1) open source! (2) 我乐于找机会给老板涨citation】
 
-MDS的众多paper暂且跳过(懒)。
+MDS的众多paper暂且跳过(懒)。可查 https://mdsattacks.com/
 
 [[19 S&P] Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)
 
@@ -73,6 +73,10 @@ P+P每次都得access一长串addrs怎么办？P+S可以把它简化到每次res
 [[21 USENIX] Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical](https://www.usenix.org/system/files/sec21-paccagnella.pdf)
 
 L3 cache 是multi-processors共享的，可以把它们看成一个环。作者present了一种由ring之间contention引起的timing-based side channel。
+
+[[22 USENIX]Don’t Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects](https://www.usenix.org/system/files/sec22-dai.pdf)
+
+Contention-based attacks on the on-chip mesh interconnect used in server-class Intel processors. 
 
 [[22 S&P] Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
 
@@ -116,7 +120,7 @@ APIC是一个MMIO page，包含了众多registers。但目前有用(有记录)�
 
 [[20 S&P] Plundervolt: Software-based Fault Injection Attacks against Intel SGX](https://plundervolt.com/doc/plundervolt.pdf)
 
-作者通过当时CPU提供的接口，可以software-based地调整电压，使目标指令执行的结果错误，attack Intel SGX。
+同上 attack Intel SGX。
 
 [[21 S&P] Platypus: Software-based Power Side-Channel Attacks on x86](https://platypusattack.com/platypus.pdf)
 
@@ -125,5 +129,17 @@ CPU在当时可以从userspace读取power consumption，作者发现当CPU执行
 [[22 USENIX](Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86)](https://www.hertzbleed.com/hertzbleed.pdf)
 
 作者发现Platypus Attack中指令对power consumption的影响，同样适用于CPU Frequency上。而且Frequency是userspace可读的。
+
+[[21 CCS]CrossLine: Breaking "Security-by-Crash" based Memory Isolation in AMD SEV](https://dl.acm.org/doi/pdf/10.1145/3460120.3485253)
+
+[[21 Usenix]CipherLeaks: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel](https://www.usenix.org/system/files/sec21-li-mengyuan.pdf)
+
+[[22 S&P]A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9833768)
+
+[[23 USENIX]Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software](https://www.usenix.org/system/files/usenixsecurity23-wichelmann.pdf)
+
+[SEV-Step A Single-Stepping Framework for AMD-SEV](https://arxiv.org/pdf/2307.14757.pdf)
+
+[[24 USENIX]CacheWarp: Software-based Fault Injection using Selective State Reset](https://cachewarpattack.com/paper.pdf)
 
 未完待续。欢迎补充/纠错, just drop me an email.
