@@ -2,7 +2,7 @@
 layout:     post
 title:      "Microarchitecture Security Tool（中文向）"
 subtitle:   "微架构安全Toolkit"
-date:       2023-08-02 02:01:00
+date:       2024-02-26 02:01:00
 author:     "luobobo"
 header-img: "img/paper-note-bg.jpg"
 tags:
@@ -84,6 +84,30 @@ An ultra-lightweight C library and binary for generating machine code of x86_64 
 
 [robsize](https://github.com/travisdowns/robsize)
 
-ROB size testing utility
+ROB size testing utility. 测Reorder Buffer，用pointer chasing实现cache misses。 然后再中间插入各种machine code的，有点难读但是work。有相关的博客、论文。
+
+https://blog.stuffedcow.net/2013/05/measuring-rob-capacity/
+https://www.usenix.org/system/files/sec22summer_taram.pdf
+https://eprint.iacr.org/2024/149.pdf
+
+
+[PMU Utils](https://github.com/Kingfish404/pmu-utils)
+
+可以直接提供event+umask来指定performance counter event。跟perf相比的话粒度更小，也能指定undocumented的events。 类似的work有[libpfc](https://github.com/obilaniu/libpfc), 但只支持Intel CPUs。 pmu-utils不仅支持Intel还支持AMD和Arm CPUs。
+
+[AsmJit](https://github.com/asmjit/asmjit)
+
+AsmJit is a lightweight library for machine code generation written in C++ language.
+
+[RE-Hash-Function](https://github.com/cispa/Microarchitectural-Hash-Function-Recovery)
+
+A novel generic approach for automatically reverse-engineering a wide range of microarchitectural hash functions. lab里好哥们的另一个工作，但还没细看xD。
+
+[SEV-step](https://github.com/sev-step/sev-step)
+
+AMD-SEV上的sgx-step。
+
+Release的时间不够凑巧，在CacheWarp里我自己也实现了一套类似的[framework](https://github.com/cispa/CacheWarp)
+
 
 未完待续。欢迎补充, just drop me an email.
