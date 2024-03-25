@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Microarchitecture Security 入门（中文向）"
+title:      "Microarchitecture Security 研究方向（中文向）"
 subtitle:   "微架构安全"
 date:       2024-03-24 02:01:00
 author:     "luobobo"
