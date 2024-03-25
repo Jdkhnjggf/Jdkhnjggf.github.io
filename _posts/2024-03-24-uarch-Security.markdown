@@ -66,6 +66,8 @@ Opinions (and lack of them) are my own :)
 
 #### 跟其他结构相关的
 
+**Directory**
+
 [[19 S&P] Attack Directories, Not Caches:Side-Channel Attacks in a Non-Inclusive World](https://people.csail.mit.edu/mengjia/data/sp19.pdf)
 
 **Ring**
@@ -85,6 +87,10 @@ Opinions (and lack of them) are my own :)
 **Mesh**
 
 [[22 USENIX] Don’t Mesh Around: Side-Channel Attacks and Mitigations on Mesh Interconnects](https://www.usenix.org/system/files/sec22-dai.pdf)
+
+**Prefetcher**
+
+[[23 USENIX] BunnyHop: Exploiting the Instruction Prefetcher](https://www.usenix.org/system/files/usenixsecurity23-zhang-zhiyuan-bunnyhop.pdf)
 
 #### Power / Hertz
 
@@ -149,11 +155,16 @@ Varients请查transient.fall
 
 **绕过Spectre Mitigation** 
 
+
 [[20 CCS] Speculative Probing: Hacking Blind in the Spectre Era](https://comsec.ethz.ch/wp-content/files/blindside_ccs20.pdf)
+
+[[21 CCS] Exorcising Spectres with Secure Compilers](https://dl.acm.org/doi/pdf/10.1145/3460120.3484534)
 
 [[22 USENIX] Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks](https://download.vusec.net/papers/bhi-spectre-bhb_sec22.pdf)
 
 [[22 USENIX] Retbleed: Arbitrary Speculative Code Execution with Return Instructions](https://comsec.ethz.ch/wp-content/files/retbleed_sec22.pdf)
+
+[[23 USENIX] Breaking and Fixing Speculative Load Hardening](https://zhangzhiyuan.me/publication/uslh.pdf)
 
 [[23 USENIX] Inception: Exposing New Attack Surfaces with Training in Transient Execution](https://comsec.ethz.ch/wp-content/files/inception_sec23.pdf)
 
@@ -210,6 +221,20 @@ To mitigate side-channels attacks, many cryptographic libraries have to implemen
 [[21 USENIX]ScatterCache: Thwarting Cache Attacks via Cache Set Randomization](https://misc0110.net/files/scattercache.pdf)
 
 还有一些用PMC/Power Consumption来检测攻击的paper
+
+### Formal Methods
+
+[Prof. JAN REINEKE](https://embedded.cs.uni-saarland.de/reineke.php) 和 [Prof. Marco Guarnieri](https://mguarnieri.github.io/)做了不少这个方向的工作。
+
+[[20 S&P] SPECTECTOR: Principled Detection of Speculative Information Flows](https://spectector.github.io/papers/spectector.pdf)
+
+[[21 S&P] Hardware-Software Contracts for Secure Speculation](https://spectector.github.io/papers/hwsw-contracts.pdf)
+
+[[22 CCS] Automatic Detection of Speculative Execution Combinations](https://mguarnieri.github.io/publication/ccs2022/ccs2022.pdf)
+
+[[23 S&P] Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing](https://mguarnieri.github.io/publication/sp2023/sp2023.pdf)
+
+[[23 CCS] Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts](https://arxiv.org/pdf/2305.06979.pdf)
 
 ## 内存(DRAM):
 
