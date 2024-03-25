@@ -145,9 +145,9 @@ Opinions (and lack of them) are my own :)
 
 [[20 S&P] LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection](https://lviattack.eu/lvi.pdf) 他们的[预告片](https://www.youtube.com/watch?v=baKHSXeIIaI&t=1s)很有趣
 
-
 [[21 USENIX] Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks](https://www.vusec.net/projects/fpvi-scsb/)
 
+[[23 USENIX] Downfall: Exploiting Speculative Data Gathering](https://downfall.page/media/downfall.pdf)
 
 **More Spectre..** 
 
