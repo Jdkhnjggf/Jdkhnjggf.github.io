@@ -118,6 +118,8 @@ Opinions (and lack of them) are my own :)
 
 [[23 USENIX] MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation](https://www.usenix.org/system/files/usenixsecurity23-xu-jinyan.pdf)
 
+[[24 USENIX] Cascade: CPU Fuzzing via Intricate Program Generation](https://comsec.ethz.ch/wp-content/files/cascade_sec24.pdf)
+
 [[24 Usenix] WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors](https://arxiv.org/pdf/2402.03704.pdf)
 
 ### Leak Data (但不是transient-execution)
