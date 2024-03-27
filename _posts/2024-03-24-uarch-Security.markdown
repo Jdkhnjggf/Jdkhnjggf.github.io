@@ -112,6 +112,13 @@ Opinions (and lack of them) are my own :)
 
 [[21 USENIX] Osiris: Automated Discovery of Microarchitectural Side Channels](https://publications.cispa.saarland/3431/1/main.pdf)
 
+#### Hardware Fuzzers
+
+[[23 Usenix] HyPFuzz: Formal-Assisted Processor Fuzzing](https://www.usenix.org/system/files/usenixsecurity23-chen-chen.pdf)
+
+[[23 USENIX] MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation](https://www.usenix.org/system/files/usenixsecurity23-xu-jinyan.pdf)
+
+[[24 Usenix] WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors](https://arxiv.org/pdf/2402.03704.pdf)
 
 ### Leak Data (但不是transient-execution)
 
@@ -147,7 +154,13 @@ Opinions (and lack of them) are my own :)
 
 [[21 USENIX] Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks](https://www.vusec.net/projects/fpvi-scsb/)
 
+
+**GDS**
+
 [[23 USENIX] Downfall: Exploiting Speculative Data Gathering](https://downfall.page/media/downfall.pdf)
+
+**RFDS**
+[RFDS-Intel](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00898.html) 
 
 **More Spectre..** 
 
@@ -261,6 +274,8 @@ To mitigate side-channels attacks, many cryptographic libraries have to implemen
 [[21 USENIX] SMASH: Synchronized Many-sided Rowhammer Attacks From JavaScript](https://download.vusec.net/papers/smash_sec21.pdf)
 
 [[22 S&P] BLACKSMITH: Scalable Rowhammering in the Frequency Domain](https://comsec.ethz.ch/wp-content/files/blacksmith_sp22.pdf)
+
+[[24 USENIX] ZenHammer: Rowhammer Attacks on AMD Zen-based Platforms](https://comsec.ethz.ch/wp-content/files/zenhammer_sec24.pdf)
 
 ## 图形处理器(GPU):
 
