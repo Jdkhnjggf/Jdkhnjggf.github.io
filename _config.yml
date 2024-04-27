@@ -13,10 +13,9 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 # SNS settings
 RSS: false
 # weibo_username:     Iuobobo
-# zhihu_username:     Iuobobo
+zhihu_username:     Iuobobo
 github_username:    Jdkhnjggf
 twitter_username:   Rayiizzz
-# facebook_username:  huxpro
 
 
 
@@ -33,7 +32,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate]
 
 
 # Markdown settings
@@ -52,13 +51,12 @@ kramdown:
 
 
 # Disqus settings
-# disqus_username: _your_disqus_short_name_
+disqus_username: Iuobobo
 
 # Duoshuo settings
-duoshuo_username: huxblog
+# duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -66,8 +64,8 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Baidu Analytics
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
+ga_track_id: 'G-0E42HEQM58'            # Format: UA-xxxxxx-xx
+ga_domain: jdkhnjggf.github.io
 
 
 

@@ -93,7 +93,7 @@ https://eprint.iacr.org/2024/149.pdf
 
 [PMU Utils](https://github.com/Kingfish404/pmu-utils)
 
-可以直接提供event+umask来指定performance counter event。跟perf相比的话粒度更小，也能指定undocumented的events。 类似的work有[libpfc](https://github.com/obilaniu/libpfc), 但只支持Intel CPUs。 pmu-utils不仅支持Intel还支持AMD和Arm CPUs。
+可以直接提供event+umask来指定performance counter event。跟perf相比的话粒度更小，也能指定undocumented的events。类似的work有[libpfc](https://github.com/obilaniu/libpfc), 但只支持Intel CPUs。 pmu-utils不仅支持Intel还支持AMD和Arm CPUs。
 
 [AsmJit](https://github.com/asmjit/asmjit)
 

@@ -2,14 +2,14 @@
 layout:     post
 title:      "Microarchitecture Security 研究方向（中文向）"
 subtitle:   "微架构安全"
-date:       2024-03-24 02:01:00
+date:       2024-04-27 02:01:00
 author:     "luobobo"
 header-img: "img/paper-note-bg.jpg"
 tags:
     - paper
 ---
 
-这篇博客本来只是随手记录的一些笔记，但貌似由于过于biasd而产生了不好的影响。
+这篇博客本来只是随手记录的一些笔记，但貌似由于过于biased而产生了不好的影响。
 再加上距上次更新也有大半年过去了，我的认知又丰富了一点 ;) 所以打算重新整理一下。
 
 声明：我的研究方向主要在x86上的side-channels attacks & architectural attacks，如果对其他方向 (ARM/Rowhammer/GPU/ML-Based/...)，其他会议/期刊(非四大安全会/期刊/体系结构会议如MICRO/ISCA/HPCA/...) 的papers有忽略，欢迎提醒/指正/补充。Just drop me a mail (ruiyi.zhang [AT] cispa.de) or open an issue. 感谢.
@@ -190,6 +190,8 @@ Varients请查transient.fall
 [[21 NDSS] SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets](https://www.cs.ucr.edu/~heng/pubs/SpecTaint.pdf)
 
 [[22 NDSS] Kasper: Scanning for Generalized Transient Execution Gadgets in the Linux Kernel](https://comsec.ethz.ch/wp-content/files/kasper_ndss22.pdf)
+
+[[24 USENIX] InSpectre Gadget: Inspecting the Residual Attack Surface of Cross-privilege Spectre v2](https://download.vusec.net/papers/inspectre_sec24.pdf)
 
 ### Architectual Vulnerability:
 
