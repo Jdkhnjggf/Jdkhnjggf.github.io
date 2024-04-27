@@ -4,11 +4,11 @@ title:      "胡思乱想"
 subtitle:   "lbb讲闲话的地方"
 date:       2024-04-27 23:21:00
 author:     "luobobo"
-header-img: "/img/timewarp-logo.jpg"
+header-img: "img/compiling.png"
 tags:
     - paper
 ---
 
-#### 24/04/28
+#### 24/04/28 - 评论
 Finally! 终于给blog加上了评论功能，但我用的最方便(简单)的disqus，仍然符合lbb的懒+拖延的人设。
-欢迎大伙儿激情开麦，谴责lbb漏看了哪篇paper(大雾)。
+欢迎大伙儿激情开麦，谴责lbb漏看了哪篇paper(大雾)。不过disqus不支持匿名，所以我猜评论也不会太harsh :D
