@@ -420,4 +420,4 @@ CPU在当时可以从userspace读取power consumption，作者发现当CPU执行
 
 [[24 USENIX]CacheWarp: Software-based Fault Injection using Selective State Reset](https://cachewarpattack.com/paper.pdf)
 
-未完待续。欢迎补充/纠错, just drop me an email.
+未完待续，欢迎补充/纠错。

@@ -4,7 +4,7 @@ title:      "CacheWarp —— AMD CPUs上的新漏洞"
 subtitle:   ""
 date:       2023-11-16 02:01:00
 author:     "luobobo"
-header-img: "/img/timewarp-log.jpg"
+header-img: "/img/timewarp-logo.jpg"
 tags:
     - paper
 ---
