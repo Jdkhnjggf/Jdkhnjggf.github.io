@@ -13,7 +13,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 # SNS settings
 RSS: false
 # weibo_username:     Iuobobo
-zhihu_username:     Iuobobo
+zhihu_username:     zhang-rui-yi-5
 github_username:    Jdkhnjggf
 twitter_username:   Rayiizzz
 
@@ -52,6 +52,11 @@ kramdown:
 
 # Disqus settings
 disqus_username: Iuobobo
+---
+layout: default
+comments: true
+# other options
+---
 
 # Duoshuo settings
 # duoshuo_username: huxblog
