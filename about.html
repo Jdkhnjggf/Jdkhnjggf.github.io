@@ -2,73 +2,29 @@
 layout: page
 title: ""
 description: ""
-header-img: "img/about-bg.jpg"
+header-img: "img/coke-zero.png"
 ---
 
 <!-- English Version -->
 <div>
-
     <p> 
-        A guy.
+        ISFP, 咖啡因依赖, 零度爱好者, 不爱百事。
     </p>
-
 </div>
-
-
-
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "huxblog" %}
-        data-thread-id="1187623191091085319"
-    {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
-<!-- 多说评论框 end -->
-
-<!-- Duoshuo hacking -->
-<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User hacking by Hux
-    var _user = document.getElementById('dsUser').value;
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
 
 {% if site.disqus_username %}
-<!-- disqus 评论框 start -->
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
 
     </div>
 </div>
-<!-- disqus 评论框 end -->
 
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script>
     var disqus_config = function () {
     this.page.url = '{{site.url}}{{page.url}}'; 
     this.page.identifier = '{{page.title}}'; 
     };
-    (function() { // DON'T EDIT BELOW THIS LINE
+    (function() { 
     var d = document, s = d.createElement('script');
     s.src = 'https://luobobo.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
@@ -76,5 +32,4 @@ header-img: "img/about-bg.jpg"
     })();
 </script>
 
-<!-- disqus 公共JS代码 end -->
 {% endif %}
