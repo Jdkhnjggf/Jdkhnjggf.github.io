@@ -1,14 +1,31 @@
 ---
 layout:     post
-title:      "胡思乱想"
+title:      "胡说八道"
 subtitle:   "lbb讲闲话的地方"
-date:       2024-04-27 23:21:00
+date:       2024-04-28 00:00:00
 author:     "luobobo"
 header-img: "img/compiling.png"
 tags:
     - paper
 ---
 
-#### 24/04/28 - 评论
+#### 24/04/28 - 摆
+按理说lbb现在应该在帮一篇合作文章改进case study，或者想办法拯救一下明天的组会发言，但他突然觉得干家务活不无聊了，修blog的bugs也不麻烦了...
+
+
+#### 24/04/27 - 评论
 Finally! 终于给blog加上了评论功能，但我用的最方便(简单)的disqus，仍然符合lbb的懒+拖延的人设。
 欢迎大伙儿激情开麦，谴责lbb漏看了哪篇paper(大雾)。不过disqus不支持匿名，所以我猜评论也不会太harsh :D
+
+
+#### 24/04/25 - Selling 
+最近开始觉得，一篇paper的接收并不代表着画上句号了，后续的selling同样重要 ———— 推特宣传/Academic Conference/Industry Conference/甚至是跟人交谈聊天讨论到啥的时候来一句“诶，我有篇paper跟这个有关，我们xxxx”。
+
+为什么这么觉得？因为paper实在太多了。体现在
+1. 做shadow review的时候，经常我哼哧哼哧熬一宿写完一篇review，打开老板的review一看 ——— 为什么这么多reference/related work我不知道啊！
+2. 大的研究领域下的小方向太多了，如果你没有专门做某个方向的工作，不知道或没看过每年最新的文章可太正常了...
+3. 读paper不是必需的。虽然作为PhD Student应该多读paper，但至少cpu security你读文档也是可以的。刚换方向的时候我第一年看了50+篇paper，第二年也许大概20篇，第三年emmmmmmm, 看个abstract/intro就完事, 跟我要跑的实验关系不大（只要没被scoop😅）
+
+所以，感谢cite我的朋友！(Cite需要遵守规则，这里只是说应该cite的时候恰好知道并且cite了的意思, 不然lbb就跟下图一样了._. )
+
+![cite](/img/cite.png)
