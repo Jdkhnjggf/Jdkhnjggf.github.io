@@ -31,6 +31,10 @@ Opinions (and lack of them) are my own :)
 
 可信执行环境(Trusted Execution Environment - TEE), 加密算法(Cryptography)
 
+**按attacker分类**
+
+TEE (Attacker可以是privileged的hypervisor) <- side channels / transient execution attacks 需要普通用户的执行权限 -> Microarchitectural Attacks from browser (需要的权限最少)
+
 **防御**
 
 ### 侧信道:
@@ -91,6 +95,15 @@ Opinions (and lack of them) are my own :)
 **Prefetcher**
 
 [[23 USENIX] BunnyHop: Exploiting the Instruction Prefetcher](https://www.usenix.org/system/files/usenixsecurity23-zhang-zhiyuan-bunnyhop.pdf)
+
+**Execution Port**
+
+[[22 ESORICS] CPU Port Contention Without SMT](https://misc0110.net/files/portcontention_esorics22.pdf)
+
+#### Linux Kernel
+[[22 NDSS] Remote Memory-Deduplication Attacks](https://martinschwarzl.at/media/files/remote_dedup.pdf)
+
+[[23 S&P] SQUIP: Exploiting the Scheduler Queue Contention Side Channel](https://martinschwarzl.at/media/files/squip.pdf)
 
 #### Power / Hertz
 
@@ -253,6 +266,18 @@ To mitigate side-channels attacks, many cryptographic libraries have to implemen
 
 [[23 CCS] Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts](https://arxiv.org/pdf/2305.06979.pdf)
 
+### Attack from browser
+[[19 NDSS] JavaScript Template Attacks: Automatically Inferring Host Information for Targeted Exploits](https://misc0110.net/files/jstemplate.pdf)
+
+[[18 NDSS] JavaScript Zero: Real JavaScript and Zero Side-Channel Attacks](https://misc0110.net/files/jszero.pdf)
+
+[[17 ESORICS] Practical Keystroke Timing Attacks in Sandboxed JavaScript](https://misc0110.net/files/keystroke_js.pdf)
+
+[[17 FC] Fantastic Timers and Where to Find Them: High-Resolution Microarchitectural Attacks in JavaScript](https://misc0110.net/files/timers.pdf)
+
+[[16 DIMVA] Rowhammer.js: A Remote Software-Induced Fault Attack in JavaScript](https://gruss.cc/files/rowhammerjs.pdf)
+
+[[15 ESORICS] Practical Memory Deduplication Attacks in Sandboxed Javascript](https://gruss.cc/files/dedup.pdf)
 ## 内存(DRAM):
 
 #### 侧信道
