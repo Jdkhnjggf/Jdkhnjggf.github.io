@@ -9,6 +9,11 @@ tags:
     - paper
 ---
 
+#### 24/05/01 - Failure
+我建议开一个Failure Workshop，专门投不work的点子。所有会议接受的都是成功的idea，所以失败的点子会一直浪费研究人员的时间。等真开了我先投100个。
+![Failure](/img/failure-steven-he.gif)
+
+
 #### 24/04/28 - 摆
 按理说lbb现在应该在帮一篇合作文章改进case study，或者想办法拯救一下明天的组会发言，但他突然觉得干家务活不无聊了，修blog的bugs也不麻烦了...
 
