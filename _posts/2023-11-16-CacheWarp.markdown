@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "CacheWarp —— AMD CPUs上的新漏洞"
+title:      "CacheWarp —— AMD CPUs上的芯片漏洞"
 subtitle:   ""
 date:       2023-11-16 02:01:00
 author:     "luobobo"
@@ -12,7 +12,7 @@ tags:
 
 ## CacheWarp Attack
 
-2023年11月15日凌晨，来自CISPA亥姆霍兹信息安全中心和格拉茨科技大学的研究员公布了存在于AMD CPUs上的最新漏洞 —— CacheWarp (CVE-2023-20592)。攻击者可以恶意地使用INVD指令抹去任意写入内存的操作，从而破坏内存保护机制，并在云虚拟机中实现远程代码执行或权限提升。研究人员们已经在论文中详细描述了漏洞的原理和攻击方法，并公布了[相关代码](https://github.com/cispa/CacheWarp)和[演示视频](https://cachewarpattack.com/#demo)。多家安全媒体如DarkReading, The Hacker News, SecurityWeek, Cyber Security News, BNN, The Register, Gigazine等已经对此进行了报道。
+2023年11月15日凌晨，来自CISPA亥姆霍兹信息安全中心和格拉茨科技大学的研究员公布了存在于AMD EPYC CPUs上的芯片漏洞 —— CacheWarp (CVE-2023-20592)。攻击者可以恶意地使用INVD指令抹去任意写入内存的操作，从而破坏内存保护机制，并在云虚拟机中实现远程代码执行或权限提升。研究人员们已经在论文中详细描述了漏洞的原理和攻击方法，并公布了[相关代码](https://github.com/cispa/CacheWarp)和[演示视频](https://cachewarpattack.com/#demo)。多家安全媒体如DarkReading, The Hacker News, SecurityWeek, Cyber Security News, BNN, The Register, Gigazine等已经对此进行了报道。
 
 ![timewarp_toy](/img/cw_author.jpg)
 
