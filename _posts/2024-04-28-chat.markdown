@@ -9,6 +9,10 @@ tags:
     - paper
 ---
 
+#### 24/05/06 - Ups and Downs
+做Research也有起起落落落落落落落，又一次跌到谷里了。回想做科研的一路，最开心的居然还是跟好朋友一起做第一篇paper的时候。
+
+
 #### 24/05/01 - Failure
 我建议开一个Failure Workshop，专门投不work的点子。所有会议接受的都是成功的idea，所以失败的点子会一直浪费研究人员的时间。等真开了我先投100个。
 ![Failure](/img/failure-steven-he.gif)
