@@ -22,9 +22,8 @@ AMD的EPYC系列芯片从2016年开始加入了SEV (Secure Encrypted Virtualizat
 
 AMD在近几年针对SEV功能进行过两次安全升级，分别为SEV-ES (Encrypted State) 与SEV-SNP (Secure Nested Paging)。在2022年，Google Project Zero团队和Google Cloud Security团队一起为SEV-SNP做了安全审计，AMD宣称SEV-SNP保护了Guest VM的完整性，没有攻击者可以篡改其数据。
 
-但最新的CacheWarp漏洞表明，即便是最新的安全措施SEV-SNP也存在漏洞。AMD已经对第三代EPYC CPU进行了修复，但第一二代的CPU仍然存在风险。
+但CacheWarp证明，即便是最新的安全措施SEV-SNP也存在安全风险。AMD已经对第三代EPYC CPU进行了修复，但第一二代的EPYC CPU将不提供修复。
 
-CacheWarp攻击的是SEV (Secure Encrypted Virtualization)这一功能。AMD希望通过SEV，云用户(guest VM)可以信任云服务商(Hypervisor)，因为每一个guest VM都会分配到一个由芯片单独生成的key并用此加密，没有其他人可以读/更改。SEV在近几年进行过两次安全升级，分别为SEV-ES与SEV-SNP。在去年，Google Project Zero和Google Cloud Security一起为SEV-SNP做了安全审计，AMD宣称SEV-SNP保护了Guest VM的完整性，没有人可以篡改其数据。
 
 ### INVD - Invalidate Internal Caches
 

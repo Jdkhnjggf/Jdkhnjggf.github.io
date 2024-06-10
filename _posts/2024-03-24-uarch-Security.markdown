@@ -53,6 +53,8 @@ TEE (Attacker可以是privileged的hypervisor) <- side channels / transient exec
 
 [[22 S&P] Adversarial Prefetch: New Cross-Core Cache Side Channel Attacks](https://arxiv.org/pdf/2110.12340.pdf)
 
+[[22 USENIX] HyperDegrade: From GHz to MHz Effective CPU Frequencies](https://www.usenix.org/system/files/sec22-aldaya.pdf)
+
 
 #### 跟某一指令相关的
 
