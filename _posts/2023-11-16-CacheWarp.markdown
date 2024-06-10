@@ -29,6 +29,8 @@ AMD在近几年针对SEV功能进行过两次安全升级，分别为SEV-ES (Enc
 
 INVD 是x86中的一个特权指令，用于清空CPU的缓存。攻击者可以通过特定的方式使用这个指令，破坏正常的内存操作。默认情况下，AMD芯片上的INVD指令会被转换为WBINVD - Wribe back and invalidate cache，确保了内存一致性。但通过配置Model Specific Register (MSR)，攻击者可将这个转换功能关闭，进而抹除victim对内存的任意写操作。在Intel芯片上，当SGX/TDX功能开启时，执行INVD指令将触发#GP错误。
 
+INVD的一定得在不需要考虑内存一致性的场景下使用。比如在开机时，CPU还没有识别到内存(型号，大小等)，但它还是需要一个buffer存在。在这种情况下，CPU会用内部缓存作为临时"内存"使用。在完成Boot后，为了不破坏内存一致性，应该使用INVD指令将所有内部缓存中的内容直接丢弃，以防其写回内存。
+
 由于INVD指令是特权指令，攻击者不能只是普通用户。这种特殊的要求却恰好符合TEE的攻击场景，因为攻击者是不受信任的Hypervisor。
 
 ### TimeWarp
