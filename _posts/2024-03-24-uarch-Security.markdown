@@ -56,6 +56,9 @@ TEE (Attacker可以是privileged的hypervisor) <- side channels / transient exec
 [[22 USENIX] HyperDegrade: From GHz to MHz Effective CPU Frequencies](https://www.usenix.org/system/files/sec22-aldaya.pdf)
 
 
+#### Frontend
+[[21 ISCA] I See Dead μops: Leaking Secrets via Intel/AMD Micro-Op Caches](https://www.cs.virginia.edu/venkat/papers/isca2021a.pdf)
+
 #### 跟某一指令相关的
 
 **TSX**
