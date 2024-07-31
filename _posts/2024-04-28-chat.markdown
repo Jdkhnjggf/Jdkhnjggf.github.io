@@ -8,6 +8,17 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
+#### 24/07/31 
+迫切地需要改进的事: 我缺少strong opinions
+
+
+#### 24/07/15 - 打脸
+收回我的暴论，应该多读paper
+
+
+#### 24/06/14 - phd
+I was lucky. My escape was narrow.
+
 
 #### 24/06/10 - make no sense
 一个月以来反复在脑子里循环的一句话: "Let's try this again."
