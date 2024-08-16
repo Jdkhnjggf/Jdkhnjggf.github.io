@@ -8,7 +8,29 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
-#### 24/07/31 
+#### 24/08/16 - I人
+啥时候才能跟任何人都侃侃而谈啊？
+
+
+#### 24/08/16 - Terrible Listener
+I'm a terrible listener
+
+Slides大段公式我就听不懂了
+
+I'm a terrible listener
+
+Slides整页全是表格数字我就听不懂了
+
+I'm a terrible listener
+
+Slides一页全是代码我就听不懂了
+
+I'm a terrible listener
+
+听不懂就不听了
+
+
+#### 24/07/31 - Strong Opinions
 迫切地需要改进的事: 我缺少strong opinions
 
 
