@@ -8,6 +8,10 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
+#### 24/08/31 - Presentation
+Google 不养I人和P人，我裂开了。不过对咖啡因成瘾患者非常友好。 
+
+
 #### 24/08/16 - I人
 啥时候才能跟任何人都侃侃而谈啊？
 
@@ -27,7 +31,8 @@ Slides一页全是代码我就听不懂了
 
 I'm a terrible listener
 
-听不懂就不听了
+~~听不懂就不听了~~ 这条只是在探讨presentation的意义到底是一次全讲明白，还是让观众感兴趣想去深入了解，还是show off.
+
 
 
 #### 24/07/31 - Strong Opinions

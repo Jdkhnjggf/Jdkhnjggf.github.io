@@ -6,7 +6,7 @@ date:       2024-04-27 02:01:00
 author:     "luobobo"
 header-img: "img/paper-note-bg.jpg"
 tags:
-    - paper
+    - post
 ---
 
 这篇博客本来只是随手记录的一些笔记，但貌似由于过于biased而产生了不好的影响。
