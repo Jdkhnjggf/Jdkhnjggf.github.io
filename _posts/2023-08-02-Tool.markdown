@@ -109,5 +109,8 @@ AMD-SEV上的sgx-step。
 
 Release的时间不够凑巧，在CacheWarp里我自己也实现了一套类似的[framework](https://github.com/cispa/CacheWarp)
 
+[Intel Pintool](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html)
+
+Pin is a dynamic binary instrumentation framework for the the IA-32 and x86-64 instruction-set architectures that enables the creation of dynamic program analysis tools
 
 未完待续，欢迎补充.

@@ -8,6 +8,14 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
+#### 24/09/19 - 反思
+Intel Pintool 真的挺好使的，为什么之前我那么不想用，我不会已经成了老顽固吧
+
+
+#### 24/09/17 - emo
+英语咋这么难呢(((
+中秋自愿在office通宵了
+
 #### 24/08/31 - Presentation
 Google 不养I人和P人，我裂开了。不过对咖啡因成瘾患者非常友好。 
 
