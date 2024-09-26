@@ -8,6 +8,10 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
+#### 24/09/26 - 
+每次idea想到头晕脑胀的时候都希望有个母语相同+水平差不多的人讨论
+
+
 #### 24/09/19 - 反思
 Intel Pintool 真的挺好使的，为什么之前我那么不想用，我不会已经成了老顽固吧
 
@@ -39,8 +43,9 @@ Slides一页全是代码我就听不懂了
 
 I'm a terrible listener
 
-~~听不懂就不听了~~ 这条只是在探讨presentation的意义到底是一次全讲明白，还是让观众感兴趣想去深入了解，还是show off.
+~~听不懂就不听了~~ 
 
+只是想说presentation的到底是要把所有东西全讲明白，还是让观众感兴趣，自己想去深入了解。~~还是show off~~
 
 
 #### 24/07/31 - Strong Opinions
