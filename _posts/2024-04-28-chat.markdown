@@ -8,6 +8,10 @@ header-img: "img/compiling.png"
 tags:
     - paper
 ---
+#### 24/10/22 - 交流
+我们拉了一个Microarchitecture Security的PhD小群方便讨论实验中碰到的一些问题。如果你是这个方向的PhD Student, 并且有安全四大/ASPLOS/ISCA/MICRO/HPCA任一会议的一作µArch Sec文章, 欢迎联系我。
+
+
 #### 24/09/26 - 
 每次idea想到头晕脑胀的时候都希望有个母语相同+水平差不多的人讨论
 
